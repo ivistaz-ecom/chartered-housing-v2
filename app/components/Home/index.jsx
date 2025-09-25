@@ -1,6 +1,9 @@
 import React from "react";
 import Banner from "../Shared/Banner";
 import Content from "./Content";
+import ProjectsSection from "./ProjectsSection";
+import StatsSection from "./StatsSection";
+import SuccessStories from "./SuccessStories";
 
 const index = () => {
   return (
@@ -23,6 +26,9 @@ const index = () => {
         />
       </div>
       <Content />
+      <ProjectsSection />
+      <StatsSection />
+      <SuccessStories />
     </>
   );
 };

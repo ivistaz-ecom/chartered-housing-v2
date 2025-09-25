@@ -58,19 +58,19 @@ export default function LeadershipSection() {
                 experience and a hands-on approach to creating spaces defined by
                 integrity, quality, and lasting value.
               </h6>
-              <Button href="/about-us/leadership">Meet our Leadership</Button>
+              <Button href="/visionary-leadership">Meet our Leadership</Button>
             </div>
 
             {/* Right Image */}
             <div className="flex justify-center lg:justify-end">
               <Image
-                src="/about-us/abh.png" // replace with your person image (transparent background preferred)
+                src="/about-us/abh.png"
                 alt="Mr. A. Balakrishna Hegde"
                 width={800}
                 height={600}
                 className="object-contain z-10 lg:mt-40"
               />
-            </div>
+            </div>                    
           </div>
         </section>
       </div>

@@ -58,7 +58,7 @@ const TeamTabs = () => {
                 alt={active.name}
                 width={500}
                 height={500}
-                className="rounded-md object-contain mb-6 grayscale brightness-105 -mt-[300px]"
+                className="rounded-md object-contain mb-6 -mt-[300px]"
               />
               <h3 className="text-[#ED1C25] lg:text-3xl text-2xl mb-3 font-semibold">
                 {active.name}

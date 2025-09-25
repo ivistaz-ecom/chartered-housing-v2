@@ -167,7 +167,7 @@ const Header = () => {
                   {/* Main Menu Item */}
                   <div
                     onClick={() => toggleDropdown(item.label)}
-                    className="text-[#646464] text-3xl roboto-serif-light tracking-wider flex items-center justify-center cursor-pointer hover:text-[#ED1C25] transition-all duration-300 hover:scale-105"
+                    className="text-[#646464] lg:text-3xl text-xl roboto-serif-light tracking-wider flex items-center justify-center cursor-pointer hover:text-[#ED1C25] transition-all duration-300 hover:scale-105"
                   >
                     {item.label}
                     <motion.svg
@@ -197,13 +197,13 @@ const Header = () => {
                         transition={{ duration: 0.3, ease: "easeInOut" }}
                         className="overflow-hidden"
                       >
-                        <div className="pt-8 space-y-6">
+                        <div className="pt-4 space-y-4">
                           {item.submenu.map((subItem) => (
                             <Link
                               key={subItem.name}
                               href={subItem.href}
                               onClick={handleSubmenuClick}
-                              className="block text-[#646464] text-2xl roboto-serif-light tracking-wider cursor-pointer transition-all duration-300 hover:text-[#ED1C25] hover:scale-105"
+                              className="block text-[#646464] lg:text-2xl roboto-serif-light tracking-wider cursor-pointer transition-all duration-300 hover:text-[#ED1C25] hover:scale-105"
                             >
                               {subItem.name}
                             </Link>
@@ -216,7 +216,7 @@ const Header = () => {
               ))}
 
               {/* Mobile Enquire Now Button */}
-              <div className="lg:hidden flex justify-center">
+              <div className="lg:hidden flex justify-center mt-10">
                 <Button href="/contact" onClick={handleSubmenuClick}>
                   Enquire Now
                 </Button>

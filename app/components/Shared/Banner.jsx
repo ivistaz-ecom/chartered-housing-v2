@@ -34,13 +34,13 @@ const Banner = ({
   };
 
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="relative overflow-hidden h-screen w-full">
       {/* Background Image/Video */}
       {useVideo ? (
         // Video Background
         <>
           <video
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-contain"
             autoPlay
             muted
             loop
@@ -101,7 +101,7 @@ const Banner = ({
       {/* Overlay for video */}
       {useVideo && (
         <div
-          className="absolute inset-0 bg-black"
+          className=""
           style={{ opacity: overlayOpacity }}
         ></div>
       )}
