@@ -19,7 +19,7 @@ const SendUsYourQueryForm = () => {
     submitStatus,
     fieldErrors,
     formId,
-  } = useFormHandler(1067);
+} = useFormHandler(5850);
 
   return (
     <form onSubmit={handleSubmit} className="lg:mt-0 mt-5">

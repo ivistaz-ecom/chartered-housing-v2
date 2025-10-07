@@ -10,7 +10,7 @@ import {
 } from "../Form/FormField";
 import Button from "../Shared/Button";
 
-const BusinessForm = () => {
+const VisionForm = () => {
   const {
     formData,
     handleChange,
@@ -20,16 +20,16 @@ const BusinessForm = () => {
     submitStatus,
     fieldErrors,
     formId,
-  } = useFormHandler(5854);
+} = useFormHandler(5855);
 
   return (
-    <div className="lg:mt-10 lg:mb-20 mb-10 lg:px-0 px-5">
+    <div className="mt-7 mb-10 lg:px-0 px-5">
       <div className="max-w-7xl mx-auto">
-        <form className="mt-0" onSubmit={handleSubmit} id={formId}>
+        <form className="" onSubmit={handleSubmit} id={formId}>
           <div className="max-w-4xl mx-auto w-full flex flex-col items-center">
             <div className="border border-[#ED1C25] py-5 px-10 w-full mt-10 flex flex-col gap-8">
-              <h3 className="lg:text-3xl text-2xl text-[#646464] roboto-serif-regular lg:p-5 text-center">
-                Ready to move your business to Chartered Centre?
+              <h3 className="lg:text-3xl text-2xl text-[#646464] roboto-serif-light text-center">
+                Let’s Bring Your Vision to Life
               </h3>
 
               <div>
@@ -39,7 +39,6 @@ const BusinessForm = () => {
                   value={formData.name}
                   onChange={handleChange}
                 />
-
                 {fieldErrors.name && (
                   <span className="text-red-500 text-xs text-start mt-1 block">
                     {fieldErrors.name}
@@ -70,20 +69,6 @@ const BusinessForm = () => {
                 {fieldErrors.email && (
                   <span className="text-red-500 text-xs text-start mt-1 block">
                     {fieldErrors.email}
-                  </span>
-                )}
-              </div>
-              <div>
-                <TextInputField
-                  placeholder="Company Name *"
-                  name="company"
-                  type="text"
-                  value={formData.company}
-                  onChange={handleChange}
-                />
-                {fieldErrors.company && (
-                  <span className="text-red-500 text-xs text-start mt-1 block">
-                    {fieldErrors.company}
                   </span>
                 )}
               </div>
@@ -124,7 +109,7 @@ const BusinessForm = () => {
                 </div>
               )}
 
-              <div className="flex justify-center lg:py-5">
+              <div className="flex justify-center">
                 <Button type="submit" disabled={isSubmitting}>
                   {isSubmitting ? "Submitting..." : "Submit"}
                 </Button>
@@ -137,4 +122,4 @@ const BusinessForm = () => {
   );
 };
 
-export default BusinessForm;
+export default VisionForm;

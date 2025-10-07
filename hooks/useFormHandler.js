@@ -121,7 +121,7 @@ export const useFormHandler = (formId) => {
         break;
       case "purpose":
         // ✅ Purpose is required for all forms except business form 1186
-        if (formId !== 1188 && (!value || !value.trim())) {
+        if (formId !== 5855 && formId !== 5851 && formId !== 5854 && (!value || !value.trim())) {
           error = "Please select a property";
         }
         break;
@@ -192,7 +192,7 @@ export const useFormHandler = (formId) => {
       console.log("Submitting form data:", formData);
 
       const response = await fetch(
-        `https://docs.ivistaz.com/wp-json/contact-form-7/v1/contact-forms/${formId}/feedback`,
+        `https://docs.charteredhousing.com/wp-json/contact-form-7/v1/contact-forms/${formId}/feedback`,
         {
           method: "POST",
           body: cf7Data,

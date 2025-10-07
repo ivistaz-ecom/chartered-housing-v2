@@ -4,7 +4,8 @@ import BreadCrumbs from '../Shared/BreadCrumbs'
 import Content from './Content'
 import AboutChartered from './AboutChartered'
 import AboutCharteredCarousel from './AboutCharteredCarousel'
-import FavouriteProjects from './GalleryImages'
+import FavoriteProjects from './FavoriteProjects'
+import VisionForm from './VisionForm'
 const index = () => {
   return (
     <>
@@ -25,7 +26,8 @@ const index = () => {
       <Content />
       <AboutChartered />
       <AboutCharteredCarousel />
-      <FavouriteProjects />
+      <FavoriteProjects />
+      <VisionForm />
     </>
   )
 }
