@@ -22,10 +22,10 @@ const Footer = () => {
               Our Projects
             </h3>
             <ul className='space-y-2'>
-              <li><a href="/projects" className='hover:text-gray-300 transition-colors'>Ongoing Projects</a></li>
-              <li><a href="/projects" className='hover:text-gray-300 transition-colors'>Upcoming Projects</a></li>
-              <li><a href="/projects" className='hover:text-gray-300 transition-colors'>Completed Projects</a></li>
-              <li><a href="/projects" className='hover:text-gray-300 transition-colors'>Commercial Projects</a></li>
+              <li><a href="/projects/ongoing" className='hover:text-gray-300 transition-colors'>Ongoing Projects</a></li>
+              <li><a href="/projects/upcoming" className='hover:text-gray-300 transition-colors'>Upcoming Projects</a></li>
+              <li><a href="/projects/completed" className='hover:text-gray-300 transition-colors'>Completed Projects</a></li>
+              <li><a href="/projects/commercial" className='hover:text-gray-300 transition-colors'>Commercial Projects</a></li>
             </ul>
           </div>
 

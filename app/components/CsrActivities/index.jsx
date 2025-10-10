@@ -14,7 +14,7 @@ const CsrActivities = () => {
         title="Building Better Lives"
         // subtitle="CSR Activities"
       />
-      <BreadCrumbs title="CSR" />   
+      <BreadCrumbs title="CSR Activities" />   
       <Content />
       <CommitmentInAction />
     </div>
