@@ -3,31 +3,35 @@ import { useFormHandler } from "@/hooks/useFormHandler";
 import {
   CheckboxField,
   PhoneInputField,
+  ResumeUploadField,
   SelectField,
   TextInputField,
 } from "@/app/components/Form/FormField";
-import Link from "next/link";
 import Button from "../Shared/Button";
 
-const SendUsYourQueryForm = () => {
+const ApplyForm = () => {
   const {
     formData,
     handleChange,
     handleSelectChange,
+    handleFileChange, // ✅ include file handler
     handleSubmit,
     isSubmitting,
     submitStatus,
     fieldErrors,
-    formId,
-} = useFormHandler(5850);
+  } = useFormHandler(5856);
+
+  // console.log("ApplyForm fieldErrors:", fieldErrors);
+  console.log("ApplyForm formData:", formData);
 
   return (
-    <form onSubmit={handleSubmit} className="lg:mt-0 mt-5" formt>
-      <div className="w-full lg:w-[777px] border border-[#ED1C25] px-5 lg:px-10 py-5 flex flex-col gap-8">
-        <h3 className="text-3xl text-[#646464] roboto-serif-regular text-center">
-          Send us your query
+    <form onSubmit={handleSubmit} className="lg:mt-0 pt-10 pb-20">
+      <div className="max-w-4xl mx-auto w-full border border-[#ED1C25] px-5 lg:px-10 py-5 flex flex-col gap-8">
+        <h3 className="text-3xl text-[#646464] text-center">
+          Apply Now
         </h3>
 
+        {/* Name */}
         <div>
           <TextInputField
             placeholder="Your Name *"
@@ -42,9 +46,11 @@ const SendUsYourQueryForm = () => {
           )}
         </div>
 
+        {/* Mobile */}
         <div>
           <PhoneInputField
             value={formData.mobile}
+            // ✅ Pass both name and value so hook can clear errors correctly
             onChange={(val) => handleSelectChange("mobile", val)}
           />
           {fieldErrors.mobile && (
@@ -54,6 +60,7 @@ const SendUsYourQueryForm = () => {
           )}
         </div>
 
+        {/* Email */}
         <div>
           <TextInputField
             type="email"
@@ -69,12 +76,16 @@ const SendUsYourQueryForm = () => {
           )}
         </div>
 
+        {/* Department */}
         <div>
           <SelectField
             value={formData.purpose}
+            // ✅ This is correct — SelectField should call `onChange(name, value)` internally
             onChange={handleSelectChange}
             fontSize="text-lg"
-            formType="partner"
+            formType="careers"
+            placeholder="Select a Department"
+            className="w-full border-b border-[#64646480] outline-0 bg-transparent shadow-none p-0 text-lg text-[#646464]"
           />
           {fieldErrors.purpose && (
             <span className="text-red-500 text-xs text-start mt-1 block">
@@ -83,33 +94,30 @@ const SendUsYourQueryForm = () => {
           )}
         </div>
 
-        {/* <div>
-          <TextAreaField
-            name="message"
-            placeholder="Your Message (Optional)"
-            value={formData.message}
-            onChange={handleChange}
-          />
-          {fieldErrors.message && (
-            <span className="text-red-500 text-xs text-start mt-1 block">
-              {fieldErrors.message}
-            </span>
-          )}
-        </div> */}
-
+        {/* Resume Upload */}
         <div>
-          <CheckboxField
-            id="sendUsYourQueryForm"
-            checked={formData.consent}
-            onChange={handleSelectChange}
+          <ResumeUploadField
+            name="resume"
+            // ✅ ResumeUpload passes file directly, not event object
+            onChange={(file) => {
+              if (file) {
+                // Mimic an event structure for handleFileChange
+                handleFileChange({ target: { files: [file] } });
+              } else {
+                // Handle file removal
+                handleSelectChange("resume", null);
+              }
+            }}
+            className="w-full border-b border-[#64646480] outline-0 bg-transparent shadow-none p-0 text-lg text-[#646464] border-0"
           />
-          {fieldErrors.consent && (
+          {fieldErrors.resume && (
             <span className="text-red-500 text-xs text-start mt-1 block">
-              {fieldErrors.consent}
+              {fieldErrors.resume}
             </span>
           )}
         </div>
 
+        {/* Submission messages */}
         {submitStatus === "success" && (
           <div className="text-green-500 text-sm text-center p-3 bg-green-50 rounded">
             Thank you for your message! We&apos;ll get back to you soon.
@@ -121,34 +129,15 @@ const SendUsYourQueryForm = () => {
           </div>
         )}
 
+        {/* Submit button */}
         <div className="flex justify-center">
           <Button type="submit" disabled={isSubmitting}>
             {isSubmitting ? "Submitting..." : "Submit"}
           </Button>
         </div>
-
-        <h6 className="text-[#646464] lg:text-xl text-center">
-          By continuing, you agree to our{" "}
-          <Link
-            target="_blank"
-            href="/terms-and-conditions"
-            className="underline underline-offset-2"
-          >
-            T&Cs
-          </Link>{" "}
-          and{" "}
-          <Link
-            target="_blank"
-            href="/privacy-policy"
-            className="underline underline-offset-2"
-          >
-            Privacy Policy
-          </Link>
-          .
-        </h6>
       </div>
     </form>
   );
 };
 
-export default SendUsYourQueryForm;
+export default ApplyForm;

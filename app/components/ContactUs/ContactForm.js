@@ -92,7 +92,8 @@ const ContactForm = () => {
                 )}
               </div>
 
-              <TextAreaField
+             <div className="">
+             <TextAreaField
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
@@ -102,6 +103,7 @@ const ContactForm = () => {
                   {fieldErrors.message}
                 </span>
               )}
+             </div>
 
               {/* <div>
                 <CheckboxField

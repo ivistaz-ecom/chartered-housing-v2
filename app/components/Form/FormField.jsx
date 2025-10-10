@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import {
   Select,
@@ -8,11 +8,12 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@/app/components/ui/select"
-import { Checkbox } from "@/app/components/ui/checkbox"
-import { Label } from "@/app/components/ui/label"
-import "react-phone-number-input/style.css"
-import PhoneInput from "react-phone-number-input"
+} from "@/app/components/ui/select";
+import { Checkbox } from "@/app/components/ui/checkbox";
+import { Label } from "@/app/components/ui/label";
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input";
+import { ResumeUpload } from "@/app/components/ui/ResumeUpload";
 
 export const TextInputField = ({
   type = "text",
@@ -31,7 +32,7 @@ export const TextInputField = ({
       onChange={onChange}
     />
   </div>
-)
+);
 
 export const TextAreaField = ({
   name,
@@ -48,7 +49,7 @@ export const TextAreaField = ({
       onChange={onChange}
     ></textarea>
   </div>
-)
+);
 
 export const PhoneInputField = ({ value, onChange }) => (
   <div className="w-full border-b border-[#64646480]">
@@ -61,11 +62,11 @@ export const PhoneInputField = ({ value, onChange }) => (
       className="custom-phone-input"
     />
   </div>
-)
+);
 
 export const CheckboxField = ({ id, checked, onChange, show = true }) => {
   if (!show) return null;
-  
+
   return (
     <div className="w-full">
       <div className="flex space-x-2">
@@ -80,8 +81,12 @@ export const CheckboxField = ({ id, checked, onChange, show = true }) => {
         </Label>
       </div>
     </div>
-  )
-}
+  );
+};
+
+export const ResumeUploadField = ({ name, onChange, className, required = false }) => {
+  return <ResumeUpload name={name} onChange={onChange} className={className} />;
+}; 
 
 // Property options data
 const propertyOptions = {
@@ -93,22 +98,30 @@ const propertyOptions = {
   ],
   contact: [
     { value: "Property Enquiries", label: "Property Enquiries" },
-    { value: "Registering As A Channel Partner", label: "Registering As A Channel Partner" },
+    {
+      value: "Registering As A Channel Partner",
+      label: "Registering As A Channel Partner",
+    },
     { value: "Become A Vendor", label: "Become A Vendor" },
     { value: "Investor Enquiries", label: "Investor Enquiries" },
+  ],
+  careers: [
+    { value: "Architecture", label: "Architecture" },
+    { value: "Customer Care", label: "Customer Care" },
+    { value: "Marketing & Sales", label: "Marketing & Sales" },
   ],
   general: [
     { value: "General Inquiry", label: "General Inquiry" },
     { value: "Investment Opportunity", label: "Investment Opportunity" },
     { value: "Partnership", label: "Partnership" },
     { value: "Media Inquiry", label: "Media Inquiry" },
-  ]
-}
+  ],
+};
 
-export const SelectField = ({ 
-  value, 
-  onChange, 
-  fontSize = "text-xl", 
+export const SelectField = ({
+  value,
+  onChange,
+  fontSize = "text-xl",
   formType = "general", // "contact", "general", "partner"
   placeholder = "Purpose",
   className,
@@ -117,16 +130,18 @@ export const SelectField = ({
   const getOptions = () => {
     switch (formType) {
       case "contact":
-        return propertyOptions.contact
+        return propertyOptions.contact;
       case "partner":
-        return propertyOptions.partner
+        return propertyOptions.partner;
       case "general":
       default:
-        return propertyOptions.general
+        return propertyOptions.general;
+      case "careers":
+        return propertyOptions.careers;
     }
-  }
+  };
 
-  const options = getOptions()
+  const options = getOptions();
 
   return (
     <Select onValueChange={(val) => onChange("purpose", val)} value={value}>
@@ -138,9 +153,9 @@ export const SelectField = ({
       <SelectContent className="bg-[#F5F5F5] p-2 border-0">
         <SelectGroup className="text-[#646464]">
           {options.map((option) => (
-            <SelectItem 
-              key={option.value} 
-              className="text-md border-b border-[#ED1C25] rounded-none py-3" 
+            <SelectItem
+              key={option.value}
+              className="text-md border-b border-[#ED1C25] rounded-none py-3"
               value={option.value}
             >
               {option.label}
@@ -149,5 +164,5 @@ export const SelectField = ({
         </SelectGroup>
       </SelectContent>
     </Select>
-  )
-}
+  );
+};

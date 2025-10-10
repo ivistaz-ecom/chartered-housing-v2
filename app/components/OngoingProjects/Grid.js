@@ -14,8 +14,8 @@ const Grid = () => {
       logoWidth: 200,
       logoHeight: 200,
       description: [
-        "Set in the heart of Palace Road, Chartered 1956 is a rare 9-floor development with just 7 boutique residences — one per floor. Rooted in royal lineage and inspired by timeless design, each 5584 sq. ft. apartment offers 4 spacious bedrooms, private lift access, a personal lobby, and a separate service zone for staff and deliveries.",
-        "Built on a parcel of land allotted in 1956 by the King of Mysore to the parents of the current owners, this project is more than exclusive — it's historic.",
+        "Set in the heart of Palace Road, Chartered 1956 is a rare 9-floor development with just 7 boutique residences, one per floor. Rooted in royal lineage and inspired by timeless design, each 5584 sq. ft. apartment offers 4 spacious bedrooms, private lift access, a personal lobby, and a separate service zone for staff and deliveries.",
+        "Built on a parcel of land allotted in 1956 by the King of Mysore to the parents of the current owners, this project is more than exclusive, it's historic.",
       ],
       highlightText:
         "An exclusive luxury residence on Palace Road built on royal history.",
@@ -32,7 +32,7 @@ const Grid = () => {
       logoWidth: 300,
       logoHeight: 300,
       description: [
-        "A plotted development that balances tranquillity with connectivity, Chartered Birdsong spans 18 acres and 38 guntas at Sadenahalli with 265 well-laid plots. Located just 15 minutes from Yelahanka and the Airport Road, it features underground infrastructure, landscaped green zones, and around 7000 sqft. clubhouse with a swimming pool, including changing rooms, a party hall, two furnished guest rooms, indoor games area, gym, and children's play spaces.",
+        "A plotted development that balances tranquillity with connectivity, Chartered Birdsong spans 18 acres and 38 guntas at Sadenahalli with 265 well-laid plots. Located just 15 minutes from Yelahanka and the Airport Road, it features underground infrastructure, landscaped green zones, and around 7000 sq. ft. clubhouse with a swimming pool, including changing rooms, a party hall, two furnished guest rooms, indoor games area, gym, and children's play spaces.",
       ],
       highlightText:
         "Premium plots just 15 mins off Yelahanka–Doddaballapur Road.",
