@@ -10,6 +10,8 @@ const images = [
     "/chartered-1956/img4.png",
 ];
 
+
+
 const Carousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
