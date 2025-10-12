@@ -6,7 +6,7 @@ import { team } from "@/app/utils/TeamData";
 const TeamTabs = () => {
   return (
     <section className="w-full bg-white lg:hidden">
-      <div className="max-w-7xl mx-auto space-y-5 px-5">
+      <div className="max-w-7xl mx-auto space-y-20 px-5">
         {team.map((member) => (
           <div
             key={member.id}
@@ -20,7 +20,7 @@ const TeamTabs = () => {
                 height={500}
                 className="rounded-md object-contain"
               />
-              <h3 className="text-[#ED1C25] lg:text-3xl text-2xl mb-3 font-semibold">
+              <h3 className="text-[#ED1C25] lg:text-3xl text-2xl   font-semibold">
                 {member.name}
               </h3>
               <h5 className="text-lg text-[#646464] mb-5 uppercase">

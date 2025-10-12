@@ -9,10 +9,10 @@ const SuccessStories = () => {
           <h3 className="text-[#ED1C24] roboto-serif-medium tracking-wide text-2xl">
             Client
           </h3>
-          <h2 className="text-4xl pt-4 md:text-6xl font-bold text-[#646464] roboto-serif-regular">
+          <h2 className="text-4xl pt-1 md:text-6xl font-bold text-[#646464] roboto-serif-regular">
             Success Stories
           </h2>
-          <div className="w-28 h-1 bg-[#ED1C24] my-4"></div>
+          <div className="w-56 h-1 bg-[#ED1C24] my-2"></div>
         </div>
         <div>
           <TestimonialsSection />

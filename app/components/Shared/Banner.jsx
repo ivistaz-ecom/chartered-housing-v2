@@ -126,7 +126,7 @@ const Banner = ({
         <h6 className="text-4xl lg:text-5xl font-bold">{subtitle}</h6>
       </div>
       {/* Contact Options - Fixed at bottom */}
-      <div className=" bottom-[5%] left-1/2 -translate-x-1/2 z-20 bg-white p-3 shadow-2xl floating-button fixed">
+      <div className="hidden bottom-[5%] left-1/2 -translate-x-1/2 z-20 bg-white p-3 shadow-2xl floating-button fixed">
         <nav className="flex lg:space-x-5 space-x-1">
           <span className="flex items-center gap-2 lg:text-xl text-sm roboto-serif-light hover:bg-red-500 p-1.5 hover:text-white transition-all duration-300">
             <svg

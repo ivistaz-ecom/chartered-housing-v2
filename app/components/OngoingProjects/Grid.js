@@ -9,7 +9,7 @@ const Grid = () => {
       title: "Palace Road",
       reraNumber: "PRM/KA/RERA/1251/472/PR/210325/007605",
       desktopImage: "/ongoing-project/palace.png",
-      mobileImage: "/ongoing-project/mobile-palace.png",
+      mobileImage: "/ongoing-project/palace.png",
       logo: "/ongoing-project/chartered-1956.svg",
       logoWidth: 200,
       logoHeight: 200,
@@ -27,7 +27,7 @@ const Grid = () => {
       title: "Yelahanka–Doddaballapur Road",
       reraNumber: "PRM/KA/RERA/1251/472/PR/210325/007605",
       desktopImage: "/ongoing-project/yelahanka.png",
-      mobileImage: "/ongoing-project/mobile-palace.png",
+      mobileImage: "/ongoing-project/yelank.png",
       logo: "/ongoing-project/bird-song.svg",
       logoWidth: 300,
       logoHeight: 300,
@@ -44,7 +44,7 @@ const Grid = () => {
   return (
     <>
       <div className="lg:px-0 px-5">
-        <div className="container mx-auto pb-20 flex flex-col gap-20">
+        <div className="container mx-auto lg:pb-20 pb-10 flex flex-col lg:gap-20 gap-10">
           {projects.map((project) => (
             <div
               key={project.id}
@@ -60,14 +60,8 @@ const Grid = () => {
                   height={1000}
                   className="w-full h-full object-cover object-center hidden lg:block"
                 />
-                <h5 className="text-[#646464]">{project.reraNumber}</h5>
-                <Image
-                  src={project.mobileImage}
-                  alt={project.title}
-                  width={1200}
-                  height={1000}
-                  className="w-full h-full object-cover object-center block lg:hidden"
-                />
+                <h5 className="text-[#646464] hidden lg:block">{project.reraNumber}</h5>
+              
               </div>
 
               <div className="lg:w-1/2 w-full flex flex-col h-full">
@@ -80,7 +74,7 @@ const Grid = () => {
                     className=""
                   />
                 </div>
-                <h4 className="text-4xl text-[#646464] font-semibold py-5">
+                <h4 className="lg:text-4xl text-3xl text-[#646464] font-semibold py-5">
                   {project.title}
                 </h4>
                 <div className="flex flex-col gap-4 flex-grow">
@@ -88,10 +82,18 @@ const Grid = () => {
                     <p key={index}>{paragraph}</p>
                   ))}
                 </div>
-                <h5 className="text-4xl text-[#ED1C24] font-semibold py-5 nunito-semibold">
+                <Image
+                  src={project.mobileImage}
+                  alt={project.title}
+                  width={1200}
+                  height={1000}
+                  className="w-full h-full object-cover object-center block lg:hidden pt-5"
+                />
+                <h5 className="text-[#646464] lg:hidden block pt-2">{project.reraNumber}</h5>
+                <h5 className="lg:text-4xl text-2xl text-[#ED1C24] font-semibold py-5 nunito-semibold">
                   {project.highlightText}
                 </h5>
-                <div className="py-5 flex items-end">
+                <div className="lg:py-5 py-0 flex items-end">
                   <Button href={project.buttonLink}>Know More</Button>
                 </div>
               </div>

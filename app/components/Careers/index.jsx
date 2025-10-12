@@ -10,8 +10,8 @@ const Careers = () => {
         backgroundImage="/careers/banner.png"
         mobileBackgroundImage="/careers/mobile-banner.png"
         sectionTitle="CAREERS"
-        title="Join Our Team"
-        subtitle="We're always looking for talented individuals to join our team. If you're interested in working with us, please send us your CV."
+        title="Build More Than a Career"
+        subtitle="Build Legacy"
         textPosition="bottom-left"
         overlayOpacity={0.2}
       />

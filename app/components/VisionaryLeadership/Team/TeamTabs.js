@@ -9,7 +9,7 @@ const TeamTabs = () => {
 
   return (
     <section className="w-full pb-16 bg-white hidden lg:block container mx-auto">
-      <div className=" grid md:grid-cols-2 gap-10 items-start">
+      <div className=" grid md:grid-cols-2 gap-20 items-start">
         {/* Left Tabs */}
         <div className="space-y-6">
           {team.map((member) => (
@@ -37,7 +37,7 @@ const TeamTabs = () => {
                 >
                   {member.name}
                 </h4>
-                <p className="text-sm text-gray-500 uppercase">{member.role}</p>
+                <h5 className="text-lg text-[#646464] uppercase">{member.role}</h5>
               </div>
             </div>
           ))}

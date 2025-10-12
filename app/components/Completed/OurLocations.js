@@ -204,7 +204,7 @@ const OurLocations = () => {
   }, [])
 
   return (
-    <div className="hidden xl:block">
+    <div className=" xl:block">
       <div className="mx-auto py-10 px-4 md:px-10 mt-7">
         <div className="relative w-full max-w-7xl mx-auto z-0">
           <Image

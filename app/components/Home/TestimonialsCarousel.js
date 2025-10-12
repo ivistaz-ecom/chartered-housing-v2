@@ -56,20 +56,21 @@ export default function TestimonialsCarousel() {
   };
   return (
     <>
-      <section className="container mx-auto pt-20 flex flex-col lg:flex-row items-start gap-12">
+      <section className="container mx-auto lg:pt-20 pt-3 flex flex-col lg:flex-row items-start gap-12">
         {/* Left Section */}
-        <div className="lg:w-[40%] flex flex-col items- justify-end">
-          <div>
-            <div className="text-[100px] leading-none font-bold text-black">
+        <div className="lg:w-[40%] flex lg:flex-col flex-row items- justify-end">
+          <div className="flex lg:flex-col flex-row lg:items-start items-center justify-center gap-5">
+            <div className="leading-none font-bold text-black">
               <Image
                 src="/home/quote.svg"
                 alt="quote"
                 width={150}
                 height={150}
+                className=""
               />
             </div>
             <h2 className="text-[#ED1C24] roboto-serif-light text-[31px] font-medium mt-10">
-              What our <br /> customers are <br /> saying
+              What our <br className="lg:block hidden" /> customers <br className="lg:hidden block" /> are <br className="lg:block hidden" /> saying
             </h2>
           </div>
 
@@ -112,7 +113,7 @@ export default function TestimonialsCarousel() {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
-              className="flex flex-col items-start gap-6 shadow-md p-5 h-[620px]"
+              className="flex flex-col items-start gap-6 shadow-md p-5 h-[672px]"
             >
               <Image
                 src={testimonials[current].image}
@@ -156,7 +157,7 @@ export default function TestimonialsCarousel() {
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: -50 }}
                   transition={{ duration: 0.4 }}
-                  className="flex flex-col items-start gap-6 shadow-md p-5 lg:h-[520px]"
+                  className="flex flex-col items-start gap-6 shadow-md p-5 lg:h-[520px] h-[px]"
                 >
                   <Image
                     src={testimonials[idx].image}
@@ -165,7 +166,7 @@ export default function TestimonialsCarousel() {
                     height={120}
                     className="rounded-full object-cover flex-shrink-0"
                   />
-                  <div className="flex flex-col justify-between flex-1 h-full">
+                  <div className="flex flex-col lg:justify-between lg:flex-1">
                     <h4 className="text-[#646464] mb-4 text-lg leading-relaxed overflow-hidden">
                       {testimonials[idx].text}
                     </h4>

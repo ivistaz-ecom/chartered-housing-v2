@@ -3,13 +3,13 @@ import React from "react";
 import Image from "next/image";
 import { FileText, BadgeCheck, Lightbulb, Home, Clock } from "lucide-react";
 
-const BusinessEthics = () => {
+const ProjectOverview = () => {
   return (
     <section className="relative w-full">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/why-chartered/business-ethics.png" // replace with your bg image path
+          src="/chartered-1956/project-overview.png" // replace with your bg image path
           alt="Business Ethics Background"
           layout="fill"
           objectFit="cover"
@@ -17,7 +17,7 @@ const BusinessEthics = () => {
           className="z-0 lg:block hidden"
         />
         <Image
-          src="/why-chartered/business-ethics-mobile.png" // replace with your bg image path
+          src="/chartered-1956/project-overview-mobile.png" // replace with your bg image path
           alt="Business Ethics Background"
           layout="fill"
           objectFit="cover"
@@ -30,53 +30,16 @@ const BusinessEthics = () => {
       {/* Content */}
       <div className="relative z-10 mx-auto px-4 lg:py-16 py-10 text-center text-white">
         <h2 className="text-3xl md:text-5xl font-bold uppercase roboto-serif-regular lg:leading-16">
-          Business Ethics & Stringent <br className="lg:block hidden"/> Value Based Practices
+          Project Overview
         </h2>
-        <h4 className="mt-5 lg:max-w-2xl mx-auto text-md md:text-xl">
-          Our business is conducted with highest ethical values and other
-          stringent value based business practices solely aimed at benefitting
-          our clients. Some such practices are;
-        </h4>
 
         {/* White Box */}
         <div className="mt-12 bg-white shadow-lg p-6 md:p-10 mx-auto lg:w-3/4">
           <div className="flex lg:flex-row flex-col gap-5">
-            {/* Left Column */}
-            <div className="md:border-r border-[#ED1C25] pr-0 md:pr-8 mb-8 md:mb-0 lg:w-[50%]">
-              <div className="flex flex-col items-start text-left p-6">
-                <Image
-                  src="/why-chartered/icons/icon-1.svg"
-                  
-                  alt="Unwavering Transparency"
-                  width={50}
-                  height={50}
-                  className="mb-3"
-                />
-                <h3 className="text-2xl font-bold text-[#ED1C25] mb-3 uppercase pt-3">
-                  Unwavering Transparency
-                </h3>
-                <p className="text-lg text-[#646464]">
-                  Following are some examples of a whole lot of transparent
-                  values practiced by Chartered:
-                </p>
-                <ul className="space-y-5 mt-5 list-disc pl-5 text-[#646464] text-lg marker:text-[#ED1C25]">
-                  <li>
-                    Transparency in not using unaccounted funds in purchase of
-                    land and sale of apartments & plots.
-                  </li>
-                  <li>
-                    Transparency in strictly adhering to the law of the land
-                    without deviating even an inch from the sanctioned plan.
-                  </li>
-                  <li>
-                    Transparent & easy to understand, plain language documents.
-                  </li>
-                </ul>
-              </div>
-            </div>
+           
 
             {/* Right Column - 2x2 grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x-0.5 divide-[#ED1C25] lg:w-[80%]">
+            <div className="grid grid-cols-1 md:grid-cols-5 divide-y md:divide-y-0 md:divide-x-0.5 divide-[#ED1C25]">
               {/* Passion for Quality */}
               <div className="p-6 text-left">
                 <Image
@@ -163,4 +126,4 @@ const BusinessEthics = () => {
   );
 };
 
-export default BusinessEthics;
+export default ProjectOverview;

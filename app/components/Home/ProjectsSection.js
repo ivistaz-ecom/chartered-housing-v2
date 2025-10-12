@@ -74,7 +74,7 @@ const ProjectsSection = () => {
 
   return (
     <section
-      className=" bg-cover bg-center bg-no-repeat"
+      className=" bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{ backgroundImage: "url('/home/ongoing-projects-bg.png')" }}
     >
       <div
@@ -140,7 +140,7 @@ const ProjectsSection = () => {
 
           {/* Navigation Arrows */}
           <div
-            className="absolute top-1/2 lg:-left-12 transform -translate-y-1/2 cursor-pointer"
+            className="absolute lg:top-1/2 top-[45%] lg:-left-12 transform -translate-y-1/2 cursor-pointer"
             onClick={prevSlide}
           >
             <Image
@@ -152,7 +152,7 @@ const ProjectsSection = () => {
             />
           </div>
           <div
-            className="absolute top-1/2 lg:-right-12 right-0 transform -translate-y-1/2 cursor-pointer"
+            className="absolute lg:top-1/2 top-[45%] lg:-right-12 right-0 transform -translate-y-1/2 cursor-pointer"
             onClick={nextSlide}
           >
             <Image
@@ -170,9 +170,9 @@ const ProjectsSection = () => {
           <h4 className="roboto-serif-light lg:text-4xl text-3xl text-[#ED1C25]">
             ONGOING
           </h4>
-          <h2 className="roboto-serif-light text-7xl mt-2">PROJECTS</h2>
-          <div className="w-32 border-b-2 border-white mt-3 mb-6 mx-1"></div>
-          <h3 className="text-3xl leading-relaxed">
+          <h2 className="roboto-serif-light lg:text-7xl text-5xl mt-2">PROJECTS</h2>
+          <div className="w-44 border-b-2 border-white mt-3 mb-6 mx-1"></div>
+          <h3 className="lg:text-3xl text-2xl leading-relaxed">
             Explore our ongoing projects to see how we bring ideas to
             life.
           </h3>

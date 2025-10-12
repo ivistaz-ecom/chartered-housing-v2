@@ -40,13 +40,13 @@ export default function LeadershipSection() {
           <div className="relative max-w-7xl mx-auto px-5 lg:px-12 pt-10 lg:py-0 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center justify-end">
             {/* Left Content */}
             <div>
-              <h4 className="text-red-600 font-semibold roboto-serif-regular text-xl lg:text-2xl">
+              <h4 className="text-red-600 font-semibold roboto-serif-light text-2xl lg:text-3xl">
                 VISIONARY
               </h4>
-              <h1 className="text-4xl lg:text-5xl font-bold roboto-serif-regular pt-5">
+              <h1 className="text-4xl lg:text-6xl font-bold roboto-serif-regular pt-1">
                 LEADERSHIP
               </h1>
-              <div className="w-28 h-1 bg-white my-3"></div>
+              <div className="w-36 h-1 bg-white my-3"></div>
               <h2 className="text-2xl md:text-4xl font-semibold pt-5">
                 Mr. A. Balakrishna Hegde
               </h2>

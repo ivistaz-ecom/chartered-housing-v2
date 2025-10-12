@@ -107,19 +107,19 @@ const StatsSection = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative bg-black text-white bg-cover bg-center py-20"
+      className="relative bg-black text-white bg-cover bg-center lg:py-20 py-10"
       style={{ backgroundImage: "url('/home/since-bg.png')" }}
     >
-      <div className="container mx-auto px-5 py-16">
+      <div className="container mx-auto px-5 lg:py-16 py-10">
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-4">
           {stats.map((item, index) => (
             <div
               key={item.id}
               className={`bg-white text-black shadow-lg w-full overflow-hidden transition-all duration-1000 ease-out ${
                 isVisible
                   ? index % 2 === 1 
-                    ? "translate-y-20 opacity-100" 
+                    ? "lg:translate-y-10 translate-y-0 opacity-100" 
                     : "translate-y-0 opacity-100"
                   : index % 2 === 0
                   ? "-translate-y-20 opacity-0"
@@ -155,7 +155,7 @@ const StatsSection = () => {
         </div>
 
         {/* Bottom Content */}
-        <div className="text-center pt-52">
+        <div className="text-center lg:pt-52 pt-15">
           <h2 className="text-5xl roboto-serif-regular text-[#ED1C24]">
             Since 1989
           </h2>

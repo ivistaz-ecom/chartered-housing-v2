@@ -21,7 +21,7 @@ const Grid = () => {
       title: "Premium Plotted Development",
       location: "Nelamangala Road",
       description:
-        "Located just off the Nelmangla-Doddaballapur Highway. Close to our recently completed project, Chartered Veda. Proposed premium plotted development projects spread across 10 acres with various plot sizes.",
+        "Located just off the Nelamangala-Doddaballapur Highway. Close to our recently completed project, Chartered Veda. Proposed premium plotted development projects spread across 10 acres with various plot sizes.",
       buttonLink: "/projects/upcoming/premium-plotted-development",
     },
     {
@@ -30,11 +30,11 @@ const Grid = () => {
       alt: "Boutique Apartments",
       title: (
         <>
-          <span className="text-[#ED1C25]">Boutique Apartments -</span> <br />
+          <span className="text-[#ED1C25] roboto-serif-medium">Boutique Apartments </span> <br />
         </>
       ),
       location: (
-        <span className="text-[#646464]">Gandhi Bazaar, Basavanagudi</span>
+        <span className="text-[#646464] roboto-serif-medium">Gandhi Bazaar, Basavanagudi</span>
       ),
       description:
         "Located in the heart of South Bangalore, at Gandhi Bazaar, Basavanagudi. Proposed to develop 2 & 3 bed apartments.",
@@ -60,10 +60,10 @@ const Grid = () => {
             <div className="flex flex-col justify-between flex-1 py-5">
               {/* Top Section */}
               <div className="flex flex-col gap-2">
-                <span className="text-[#ED1C25] text-2xl">
+                <span className="text-[#ED1C25] text-2xl roboto-serif-medium">
                   {project.title}{" "}
                 </span>
-                <span className="text-[#646464] text-2xl">
+                <span className="text-[#646464] text-2xl roboto-serif-medium">
                   {project.location}
                 </span>
                 <p className="pt-5">{project.description}</p>

@@ -9,18 +9,16 @@ const IndustryInfluence = () => {
           <h3 className="text-[#ED1C24] roboto-serif-medium tracking-wide text-2xl uppercase">
             Industry
           </h3>
-          <h2 className="text-4xl pt-4 md:text-6xl font-bold text-[#646464] roboto-serif-regular uppercase">
+          <h2 className="text-4xl pt-1 md:pt-4 md:text-6xl font-bold text-[#646464] roboto-serif-regular uppercase">
             Influence
           </h2>
           <div className="w-32 h-1 bg-[#ED1C24] my-4"></div>
         </div>
-        <div className="flex justify-end">
-          <Image
+        <div className="flex justify-start">
+          <img
             src="/why-chartered/credai.svg"
             alt="Industry Influence"
-            width={500}
-            height={500}
-            className="w-full"
+            className="w-[70%]"
           />
         </div>
       </div>

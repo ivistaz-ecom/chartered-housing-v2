@@ -16,13 +16,13 @@ const achievements = [
   },
   {
     title: "CREDAI KARNATAKA PLAQUE OF APPRECIATION",
-    desc: "Awarded to our chairman Sri. Aerya Balakrishna Hegde for outstanding contribution to Realty sector.",
+    desc: "Awarded to our chairman Sri. Aerya Balakrishna Hegde for outstanding contribution to Realty sector",
   },
 ];
 
 const Achievements = () => {
   return (
-    <section className="bg-black text-white py-20 lg:px-0 px-5">
+    <section className="bg-black text-white lg:py-20 py-10 lg:px-0 px-5">
       {/* Heading */}
       <div className="container mx-auto">
         <h3 className="text-[#ED1C24] roboto-serif-medium tracking-wide text-2xl uppercase">
@@ -31,9 +31,9 @@ const Achievements = () => {
         <h2 className="text-4xl pt-4 md:text-6xl font-bold text-[#fff] roboto-serif-regular uppercase">
           ACHIEVEMENTS
         </h2>
-        <div className="w-32 h-1 bg-[#fff] my-4"></div>
+        <div className="lg:w-64 w-40 h-1 bg-[#fff] my-4"></div>
 
-        <div className="text-left mb-12">
+        <div className="text-left lg:my-12 my-7">
           <h6 className="max-w-2xl leading-relaxed">
             Our work and our customers’ delight have been our biggest
             inspiration. But when the journey spans 30 years, rewards are bound

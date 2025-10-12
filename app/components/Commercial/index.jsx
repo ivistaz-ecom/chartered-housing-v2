@@ -11,7 +11,7 @@ const Commercial = () => {
       <Banner
         backgroundImage="/commercial/banner.png"
         mobileBackgroundImage="/commercial/mobile-banner.png"
-        sectionTitle="Chartered Centre"
+        sectionTitle="Commercial Projects"
         title="The Crossroads of"
         subtitle="Access and Opportunity"
       />

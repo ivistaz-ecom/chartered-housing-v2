@@ -25,8 +25,8 @@ const CharteredCarousel = () => {
       {/* Top Section */}
       <div>
         <h2 className="md:text-4xl text-2xl font-semibold flex flex-col items-center justify-center gap-2">
-          <span className="text-[#ED1C25] roboto-serif-regular">WHEN YOU </span>
-          <span className="text-[#646464] roboto-serif-light text-4xl">
+          <span className="text-[#ED1C25] roboto-serif-medium">WHEN YOU </span>
+          <span className="text-[#646464] roboto-serif-medium text-4xl">
             CHOOSE CHARTERED...
           </span>
         </h2>

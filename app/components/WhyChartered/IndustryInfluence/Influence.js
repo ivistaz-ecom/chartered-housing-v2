@@ -3,7 +3,7 @@ import Image from "next/image";
 const Influence = () => {
   return (
     <>
-      <div className="container mx-auto py-20 flex justify-between items-center gap-10">
+      <div className="container mx-auto lg:py-20 py-14 flex justify-between items-center gap-10">
         <div className="flex flex-col gap-10">
           <div className="flex lg:flex-row flex-col lg:gap-10 gap-5 items-start justify-center border-b border-[#ED1C25] lg:space-y-10 pb-5 lg:pb-0">
             <Image
