@@ -37,7 +37,7 @@ export default function LeadershipSection() {
           {/* Overlay */}
           {/* <div className="absolute inset-0 bg-black bg-opacity-60"></div> */}
 
-          <div className="relative max-w-7xl mx-auto px-5 lg:px-12 pt-10 lg:py-0 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center justify-end">
+          <div className="relative max-w-7xl mx-auto px-5 lg:px-12 pt-10 lg:py-0 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center justify-end -mt-0.5">
             {/* Left Content */}
             <div>
               <h4 className="text-red-600 font-semibold roboto-serif-light text-2xl lg:text-3xl">
