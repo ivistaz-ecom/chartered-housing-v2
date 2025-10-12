@@ -3,7 +3,7 @@ import { ourIdealPartners } from "@/app/utils/OurIdealPartners";
 const OurIdealPartners = () => {
   return (
     <div className="px-5 lg:px-4 lg:mt-16 mt-7">
-      <div className="container mx-auto flex flex-col gap-5">
+      <div className="max-w-7xl mx-auto flex flex-col gap-5">
         <h2 className="text-[#ED1C25] lg:text-4xl text-3xl lg:text-center roboto-serif-regular">
           Advantages to Landowners
         </h2>

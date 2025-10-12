@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import Link from "next/link"
-import { useEffect } from "react"
-import { initFlowbite } from "flowbite"
+import Image from "next/image";
+import Link from "next/link";
+import { useEffect } from "react";
+import { initFlowbite } from "flowbite";
 
 const pinLocations = [
   {
@@ -195,16 +195,16 @@ const pinLocations = [
     content: "Koramangala Extension, Bangalore",
     location: "https://maps.app.goo.gl/example4",
   },
-]
+];
 
 const OurLocations = () => {
   // Initialize Flowbite JS popovers
   useEffect(() => {
-    initFlowbite()
-  }, [])
+    initFlowbite();
+  }, []);
 
   return (
-    <div className="hidden lg:block">
+    <div className="lg:hidden">
       <div className="mx-auto py-10 px-4 md:px-10 mt-7">
         <div className="relative w-full max-w-7xl mx-auto z-0">
           <Image
@@ -212,54 +212,12 @@ const OurLocations = () => {
             alt="Map"
             width={1000}
             height={600}
-            className="w-full hidden lg:block"
+            className="w-full"
           />
-
-          {pinLocations.map((pin, idx) => (
-            <div key={idx}>
-              {/* Trigger */}
-              <button
-                data-popover-target={`popover-${idx}`}
-                type="button"
-                style={{ top: `${pin.top}px`, left: `${pin.left}px` }}
-                className="absolute z-20"
-              >
-                <Image
-                  src="/completed-project/pointer.svg"
-                  alt="Location Pin"
-                  width={15}
-                  height={15}
-                />
-              </button>
-
-              {/* Popover Content */}
-              <div
-                data-popover
-                id={`popover-${idx}`}
-                role="tooltip"
-                className="absolute z-30 w-64 invisible inline-block text-sm text-primary bg-white border border-gray-200 shadow-sm transition-opacity duration-300"
-                style={{ top: `${pin.top - 10}px`, left: `${pin.left + 30}px` }}
-              >
-                <div className="px-3 py-2 bg-[#ED1C25] border-b border-gray-200">
-                  <h3 className="font-semibold text-white">{pin.title}</h3>
-                </div>
-                <div className="px-3 py-2">
-                  <Link href={pin.location} target="_blank">
-                    <p className="text-xs sm:text-sm font-light tracking-wide">
-                      {pin.content}
-                    </p>
-                  </Link>
-                </div>
-                <div data-popper-arrow></div>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
-
-      <hr className="border-gray-400 w-full" />
     </div>
-  )
-}
+  );
+};
 
-export default OurLocations
+export default OurLocations;

@@ -4,6 +4,7 @@ import React from "react";
 import Banner from "../Shared/Banner";
 import BreadCrumbs from "../Shared/BreadCrumbs";
 import Content from "./Content";
+import OurLocationsMobile from "./OurLocationsMobile";
 
 const index = () => {
   return (
@@ -21,6 +22,7 @@ const index = () => {
       <Content />
       <Completed />
       <OurLocations />
+      <OurLocationsMobile />
     </>
   );
 };

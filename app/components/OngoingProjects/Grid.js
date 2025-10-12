@@ -19,7 +19,7 @@ const Grid = () => {
       ],
       highlightText:
         "An exclusive luxury residence on Palace Road built on royal history.",
-      buttonLink: "/projects/ongoing/palace-road",
+      buttonLink: "/projects/ongoing/chartered-1956",
       isReversed: false,
     },
     {
@@ -36,7 +36,7 @@ const Grid = () => {
       ],
       highlightText:
         "Premium plots just 15 mins off Yelahanka–Doddaballapur Road.",
-      buttonLink: "/projects/ongoing/palace-road",
+      buttonLink: "/projects/ongoing/chartered-birdsong",
       isReversed: true,
     },
   ];

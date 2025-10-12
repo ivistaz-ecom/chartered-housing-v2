@@ -18,7 +18,9 @@ const sectionData = {
         "Achieved approval for English-medium instruction",
       ],
       ending:
-        "Empowering children through education is one of the most enduring ways to build better lives. This initiative is just the beginning.",
+      <>
+      <p className="">
+      Empowering children through education is one of the most enduring ways to build better lives. This initiative is just the beginning.</p></>,
     },
     {
       title: "Environmental Stewardship",
@@ -121,8 +123,8 @@ export default function RecentInitiatives() {
             </div>
 
             {/* Text Section */}
-            <div className="lg:w-[60%] lg:py-10 lg:px-0 px-5 pb-5 lg:pb-0">
-              <h3 className="text-[#ED1C24] mb-5 tracking-wide text-3xl">
+            <div className="lg:w-[60%]  lg:px-0 px-5 lg:pb-10 pb-5">
+              <h3 className="text-[#ED1C24] mb-5 tracking-wide text-3xl lg:pt-10">
                 {initiative.title}
               </h3>
               <h4 className="text-xl text-[#646464] font-light">

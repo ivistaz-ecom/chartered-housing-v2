@@ -22,7 +22,7 @@ const AboutChartered = () => {
               <h4 className="lg:text-4xl text-3xl roboto-serif-light text-[#ED1C25]">
                 Thoughtful Interiors, <br className="hidden lg:block"/> Seamlessly Delivered
               </h4>
-              <p className="pt-10">
+              <p className="lg:pt-10 pt-5">
                 With over a decade of experience in design and real estate,
                 Chartered Interiors offers a detail-oriented, transparent
                 approach to interiors. From spatial planning to the finishing

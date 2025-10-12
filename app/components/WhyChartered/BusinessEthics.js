@@ -5,7 +5,7 @@ import { FileText, BadgeCheck, Lightbulb, Home, Clock } from "lucide-react";
 
 const BusinessEthics = () => {
   return (
-    <section className="relative w-full">
+    <section className="relative w-full lg:block hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
@@ -46,7 +46,7 @@ const BusinessEthics = () => {
               <div className="flex flex-col items-start text-left p-6">
                 <Image
                   src="/why-chartered/icons/icon-1.svg"
-                  
+
                   alt="Unwavering Transparency"
                   width={50}
                   height={50}
@@ -151,8 +151,8 @@ const BusinessEthics = () => {
                   We have a unique track record of completing all our projects
                   on time right from our first project. Even when the Real
                   Estate business went through periodic recessionary cycles, we
-                  have been frighteningly punctual always – irrespective of the
-                  times – good or bad.
+                  have been frighteningly punctual always, irrespective of the
+                  times, good or bad.
                 </h6>
               </div>
             </div>
@@ -164,3 +164,4 @@ const BusinessEthics = () => {
 };
 
 export default BusinessEthics;
+

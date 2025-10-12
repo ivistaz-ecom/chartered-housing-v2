@@ -17,7 +17,9 @@ const index = () => {
         textPosition="bottom-left"
         overlayOpacity={0.2}
       />
+      <div className="max-w-7xl mx-auto">
       <BreadCrumbs title="Partner With Us" />
+      </div>
       <SendUsYourQuery />
       <OurIdealPartners />
       <WeBringToTheTable />

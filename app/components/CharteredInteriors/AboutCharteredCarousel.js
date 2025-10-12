@@ -65,13 +65,13 @@ const AboutChartered = () => {
   const currentData = slideData[currentSlide];
 
   return (
-    <div 
+    <div
       className="lg:px-0 px-5 lg:pb-20 pb-5"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row gap-10">
+        <div className="flex flex-col lg:flex-row lg:gap-10 gap-5">
           {/* Content Section */}
           <div className="flex flex-col flex-1 gap-5 items-end justify-between lg:w-[45%] w-full">
             {/* Top Content */}
@@ -82,8 +82,7 @@ const AboutChartered = () => {
               <p className="pt-5">
                 We bring your vision to life with layouts that blend purpose
                 with personality. Whether it&apos;s a compact apartment or a
-                sprawling villa, every space is crafted to reflect your taste
-                &mdash; and how you live.
+                sprawling villa, every space is crafted to reflect your taste, and how you live.
               </p>
             </div>
             <AnimatePresence mode="wait">
@@ -92,11 +91,11 @@ const AboutChartered = () => {
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -50 }}
-                transition={{ duration: 0.8, }}
+                transition={{ duration: 0.8 }}
                 className="w-full"
               >
-                {/* Bottom Content */}
-                <div className="mt-8">
+                {/* Desktop Bottom Content */}
+                <div className="mt-8 lg:block hidden">
                   <h5 className="text-2xl font-semibold text-[#646464] mb-5">
                     {currentData.serviceTitle}
                   </h5>
@@ -119,7 +118,7 @@ const AboutChartered = () => {
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -50 }}
-                transition={{ duration: 0.8, }}
+                transition={{ duration: 0.8 }}
                 className="w-full"
               >
                 <Image
@@ -131,7 +130,29 @@ const AboutChartered = () => {
                 />
               </motion.div>
             </AnimatePresence>
-
+            <AnimatePresence mode="wait" className="lg:hidden">
+              <motion.div
+                key={currentData.id}
+                initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -50 }}
+                transition={{ duration: 0.8 }}
+                className="w-full"
+              >
+                {/* Mobile Bottom Content */}
+                <div className="mt-8 lg:hidden">
+                  <h5 className="text-2xl font-semibold text-[#646464] mb-5">
+                    {currentData.serviceTitle}
+                  </h5>
+                  <p className="mb-5">{currentData.serviceDescription}</p>
+                  <div>
+                    <Button href={currentData.buttonLink}>
+                      Start Your Project
+                    </Button>
+                  </div>
+                </div>
+              </motion.div>
+            </AnimatePresence>
             {/* Mobile Navigation */}
             <div className="flex items-center justify-center gap-4 mt-6 lg:hidden">
               <button

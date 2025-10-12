@@ -142,6 +142,9 @@ export const useFormHandler = (formId) => {
           formId !== 5855 &&
           formId !== 5851 &&
           formId !== 5854 &&
+          formId !== 5858 &&
+          formId !== 5859 &&
+
           (!value || !value.trim())
         ) {
           // Different error messages based on form type
@@ -163,7 +166,7 @@ export const useFormHandler = (formId) => {
         }
         break;
       case "consent":
-        if (formId === 1067 && !value) {
+        if ((formId === 1067 || formId === 5858 || formId === 5859) && !value) {
           error = "You must agree to the terms and conditions";
         }
         break;

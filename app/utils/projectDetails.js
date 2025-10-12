@@ -41,7 +41,7 @@ export const ch1956projectDetails = [
   {
     icon: "/chartered-1956/icon-9.svg",
     title:
-      'Two numbers 8 passenger <br /> lifts <span class="text-[#ED1C25]">one reserved for the owners & guests and the other for service purposes.</span> <br /> One of the two will be stretcher compliant.',
+      'Two numbers 8 passenger <br /> lifts <span class="text-[#ED1C25]">one reserved for the owners & guests and the other for service purposes.</span> <br /> One of the two will be stretcher compliant',
   },
   {
     icon: "/chartered-1956/icon-10.svg",

@@ -7,6 +7,7 @@ import PaperAds from './PaperAds'
 import IndustryInfluence from './IndustryInfluence/IndustryInfluence'
 import Achievements from './Achievements'
 import CharteredCarousel from './CharteredCarousel'
+import BusinessEthicsMobile from './BusinessEthicsMobile'
 const index = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const index = () => {
       <BreadCrumbs title="Why Chartered" />
       <Content />
       <BusinessEthics />
+      <BusinessEthicsMobile />
       <PaperAds />
       <IndustryInfluence />
       <Achievements />

@@ -36,13 +36,13 @@ const Amenities = () => {
       {/* Overlay */}
 
       <div className="relative z-10 container mx-auto text-center text-white px-5 md:px-0">
-        <h2 className="text-4xl font-light mb-12 roboto-serif-medium">Amenities</h2>
+        <h2 className="text-4xl font-light mb-12 roboto-serif-regular">Amenities</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-start">
           {amenitiesData.map((item, index) => (
             <div
               key={index}
-              className="bg-white text-gray-800  p-8 shadow-lg transition-transform transform hover:-translate-y-2"
+              className="bg-white text-[#646464]  p-8 shadow-lg transition-transform transform hover:-translate-y-2"
             >
               <div className="mb-4 flex justify-start min-h-14">
                 <Image

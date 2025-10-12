@@ -8,11 +8,12 @@ import ProjectDetailsMobile from "./ProjectDetailsMobile";
 import Carousel from "./Carousel";
 import Amenities from "./Amenities";
 import ImportantSpecification from "./ImportantSpecification";
+import Form1956 from "./Form1956";
 const Chartered1956 = () => {
   return (
     <div>
       <Banner
-        backgroundImage="/chartered-1956/mobile-banner.png"
+        backgroundImage="/chartered-1956/banner.png"
         mobileBackgroundImage="/chartered-1956/mobile-banner.png"
         sectionTitle="CHARTERED 1956"
         title="A timeless residence where"
@@ -28,6 +29,7 @@ const Chartered1956 = () => {
       <Carousel />
       <Amenities />
       <ImportantSpecification />
+      <Form1956 />
     </div>
   );
 };

@@ -12,7 +12,7 @@ const SuccessStories = () => {
           <h2 className="text-4xl pt-1 md:text-6xl font-bold text-[#646464] roboto-serif-regular">
             Success Stories
           </h2>
-          <div className="w-56 h-1 bg-[#ED1C24] my-2"></div>
+          <div className="lg:w-56 w-32 h-1 bg-[#ED1C24] my-2"></div>
         </div>
         <div>
           <TestimonialsSection />

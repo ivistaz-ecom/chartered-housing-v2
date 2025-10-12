@@ -20,7 +20,7 @@ export const ourIdealPartners = [
   },
   {
     title: "No Deviations:",
-    desc: "Strict adherence to the sanction plans without any deviations to avoid any future litigations",
+    desc: "Strict adherence to the sanction plans without any deviations to avoid any future litigations.",
   },
   {
     title: "Transparency:",

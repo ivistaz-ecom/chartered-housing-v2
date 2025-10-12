@@ -15,7 +15,7 @@ const FavoriteProjects = () => {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {/* Left large image spanning 2 rows on desktop only */}
-        <div className="md:row-span-2 relative col-span-2 md:col-span-1">
+        <div className="md:row-span-2 relative col-span-1 md:col-span-1">
           <Image
             src="/chartered-interiors/img-1.png"
             alt="Left Large Project"

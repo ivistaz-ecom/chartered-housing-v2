@@ -9,9 +9,9 @@ const WeBringToTheTable = () => {
     "A loyal customer base and strong market reputation",
   ]
   return (
-    <div className="px-5 lg:px-4 lg:my-16 my-7">
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2">
-        <div>
+    <div className="px-5 lg:px-0 lg:my-16 my-7">
+      <div className="max-w-7xl mx-auto flex lg:flex-row flex-col">
+        <div className="lg:w-1/2 w-full">
           <Image
             src="/partner-with-us/we-bring-to-the-table.png"
             width={600}
@@ -20,7 +20,7 @@ const WeBringToTheTable = () => {
             className=""
           />
         </div>
-        <div>
+        <div className="lg:w-1/2 w-full">
           <h2 className="text-[#ED1C25] lg:text-4xl text-3xl roboto-serif-regular py-7 lg:py-0">
             We Bring To The Table
           </h2>
@@ -28,7 +28,7 @@ const WeBringToTheTable = () => {
             {data.map((item, index) => (
               <li
                 key={index}
-                className="bg-[#EBEBEB] text-[#646464] font-playfair text-xl lg:text-2xl italic leading-9 px-4 py-5 w-full"
+                className="bg-[#EBEBEB] text-[#646464] text-xl lg:text-2xl italic leading-9 px-4 py-5 w-full"
               >
                 {item}
               </li>

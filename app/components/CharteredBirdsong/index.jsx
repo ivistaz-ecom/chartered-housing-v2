@@ -8,6 +8,7 @@ import LocationAdvantage from "./LocationAdvantage"
 import ProjectDetailsMobile from "./ProjectDetailsMobile"
 import Carousel from "./Carousel"
 import Amenities from "./Amenities"
+import FormBirdSong from "./FormBirdSong"
 const CharteredBirdsong = () => {
   return (
     <div>
@@ -28,6 +29,7 @@ const CharteredBirdsong = () => {
       <Carousel />
       <Amenities />
       <LocationAdvantage />
+      <FormBirdSong />
     </div>
   )
 }

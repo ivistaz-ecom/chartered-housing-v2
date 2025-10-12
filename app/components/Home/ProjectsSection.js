@@ -74,8 +74,8 @@ const ProjectsSection = () => {
 
   return (
     <section
-      className=" bg-cover bg-center bg-no-repeat overflow-hidden"
-      style={{ backgroundImage: "url('/home/ongoing-projects-bg.png')" }}
+      className=" bg-cover bg-center bg-no-repeat overflow-hidden bg-[url(/home/ongoing-projects-bg.png)] bg-fixed"
+      style={{ transform: "translateZ(0)", backfaceVisibility: "hidden" }}
     >
       <div
         className="container mx-auto px-5 lg:px-0 py-16 flex flex-col-reverse lg:flex-row items-center justify-between lg:gap-32 gap-10"
@@ -83,7 +83,7 @@ const ProjectsSection = () => {
         onMouseLeave={startAutoSlide}
       >
         {/* Left Content Box */}
-        <div className="relative w-full lg:w-[600px] overflow-visible lg:py-20">
+        <div className="relative w-full lg:w-[600px] h-[880px] overflow-visible" style={{ willChange: "auto" }}>
           <AnimatePresence mode="wait" custom={direction}>
             <motion.div
               key={currentProject.id}
@@ -140,7 +140,7 @@ const ProjectsSection = () => {
 
           {/* Navigation Arrows */}
           <div
-            className="absolute lg:top-1/2 top-[45%] lg:-left-12 transform -translate-y-1/2 cursor-pointer"
+            className="absolute lg:top-1/2 top-[38%] lg:-left-12 transform -translate-y-1/2 cursor-pointer"
             onClick={prevSlide}
           >
             <Image
@@ -152,7 +152,7 @@ const ProjectsSection = () => {
             />
           </div>
           <div
-            className="absolute lg:top-1/2 top-[45%] lg:-right-12 right-0 transform -translate-y-1/2 cursor-pointer"
+            className="absolute lg:top-1/2 top-[38%] lg:-right-12 right-0 transform -translate-y-1/2 cursor-pointer"
             onClick={nextSlide}
           >
             <Image
@@ -167,11 +167,11 @@ const ProjectsSection = () => {
 
         {/* Right Content */}
         <div className="text-left w-full lg:w-1/2 text-white">
-          <h4 className="roboto-serif-light lg:text-4xl text-3xl text-[#ED1C25]">
+          <h4 className="roboto-serif-light lg:text-4xl text-2xl text-[#ED1C25]">
             ONGOING
           </h4>
-          <h2 className="roboto-serif-light lg:text-7xl text-5xl mt-2">PROJECTS</h2>
-          <div className="w-44 border-b-2 border-white mt-3 mb-6 mx-1"></div>
+          <h2 className="roboto-serif-light lg:text-7xl text-4xl mt-2">PROJECTS</h2>
+          <div className="lg:w-44 w-32 border-b-2 border-white mt-3 mb-6 mx-1"></div>
           <h3 className="lg:text-3xl text-2xl leading-relaxed">
             Explore our ongoing projects to see how we bring ideas to
             life.
