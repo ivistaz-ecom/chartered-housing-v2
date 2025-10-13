@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Button from "../Shared/Button";
+import Link from "next/link";
 
 
 const ProjectsSection = () => {
@@ -20,11 +21,12 @@ const ProjectsSection = () => {
       title: "Where nature meets design",
       description:
         "A premium plotted development spread across 18 acres and 38 guntas at Sadenahalli, just 15 minutes from Yelahanka. With 265 well-laid plots, underground infrastructure, landscaped paths, and a modern clubhouse, Birdsong is designed for those who want to build their forever home in a thoughtfully planned community.",
-      buttonLink: "/projects/ongoing",
+      buttonLink: "/projects/ongoing/chartered-birdsong",
       desktopLogoWidth: 400,
       desktopLogoHeight: 100,
       mobileLogoWidth: 320,
       mobileLogoHeight: 60,
+
     },
     {
       id: 2,
@@ -35,7 +37,7 @@ const ProjectsSection = () => {
       title: "An exclusive luxury residence",
       description:
         "Set in the heart of Palace Road, Chartered 1956 is a rare 9-floor development with just 7 boutique residences — one per floor. Rooted in royal lineage and inspired by timeless design, each 5584 sq. ft. apartment offers 4 spacious bedrooms, private lift access, a personal lobby, and a separate service zone for staff and deliveries.",
-      buttonLink: "/projects/ongoing/palace-road",
+      buttonLink: "/projects/ongoing/chartered-1956",
       desktopLogoWidth: 200,
       desktopLogoHeight: 100,
       mobileLogoWidth: 150,
@@ -132,7 +134,9 @@ const ProjectsSection = () => {
                   {currentProject.description}
                 </p>
                 <div className="py-5">
-                  <Button href={currentProject.buttonLink}>Know More</Button>
+                  <Link href={currentProject.buttonLink}>
+                    <Button>Know More</Button>
+                  </Link>
                 </div>
               </div>
             </motion.div>

@@ -24,18 +24,18 @@ const ImportantSpecification = () => {
     return (
         <section className="md:py-16 py-0">
             <div className="max-w-6xl mx-auto bg-[#DBDBDB] md:p-10 shadow-sm py-20">
-                <h2 className="text-3xl text-center font-light text-red-600 mb-6 roboto-serif-medium">
+                <h2 className="text-3xl text-center text-[#ED1C25] mb-6 roboto-serif-regular">
                     Important Specification
                 </h2>
-                <div className="border-t border-red-300 w-3/4 mx-auto mb-10"></div>
+                <div className="border-t border-[#ED1C25] w-3/4 mx-auto mb-10"></div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-5 md:px-0">
                     {/* Left Column */}
                     <ul className="space-y-5">
                         {leftSpecs.map((item, index) => (
                             <li key={index} className="flex items-start">
-                                <span className="text-red-500 text-xl mr-3 leading-tight">•</span>
-                                <p className="text-gray-700 leading-relaxed">{item}</p>
+                                <span className="text-[#ED1C25] text-xl mr-3 leading-tight">•</span>
+                                <p className="text-[#646464] leading-relaxed">{item}</p>
                             </li>
                         ))}
                     </ul>
@@ -44,8 +44,8 @@ const ImportantSpecification = () => {
                     <ul className="space-y-5 md:border-l border-t md:border-t-0 border-dotted border-red-300 md:pl-6 pt-10 md:pt-0">
                         {rightSpecs.map((item, index) => (
                             <li key={index} className="flex items-start">
-                                <span className="text-red-500 text-xl mr-3 leading-tight">•</span>
-                                <p className="text-gray-700 leading-relaxed">{item}</p>
+                                <span className="text-[#ED1C25] text-xl mr-3 leading-tight">•</span>
+                                <p className="text-[#646464] leading-relaxed">{item}</p>
                             </li>
                         ))}
                     </ul>

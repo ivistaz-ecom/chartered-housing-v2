@@ -71,42 +71,51 @@ const Header = () => {
     setIsMenuOpen(false);
     setOpenDropdown(null);
   };
-  const [logoSize, setLogoSize] = useState({ width: 100, height: 100 });
+  
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth <= 768) {
-        setLogoSize({ width: 70, height: 70 }); // mobile
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setIsScrolled(true);
       } else {
-        setLogoSize({ width: 80, height: 80 }); // desktop
+        setIsScrolled(false);
       }
     };
 
     // Run on mount
-    handleResize();
+    handleScroll();
 
-    // Listen for resize
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    // Listen for scroll
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
     <>
       {/* Logo - Global on all pages */}
-      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-50">
+      <div className={`fixed left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ease-in-out ${
+        isScrolled ? 'top-2' : 'top-4'
+      }`}>
         <Link href="/">
           <img
             src="/logo.png"
             alt="CHARTERED"
-            // width={logoSize.width}
-            // height={logoSize.height}
-            className="cursor-pointer lg:w-20 lg:h-auto w-16 h-auto"
+            className={`cursor-pointer transition-all duration-500 ease-in-out ${
+              isScrolled 
+                ? 'lg:w-14 lg:h-auto w-12 h-auto' 
+                : 'lg:w-20 lg:h-auto w-16 h-auto'
+            }`}
           />
         </Link>
       </div>
 
       {/* White Header Bar */}
-      <header className="absolute top-0 left-0 right-0 z-40 bg-white">
-        <div className="flex items-center justify-between px-6 lg:px-0 py-4 container mx-auto">
+      <header className={`fixed top-0 left-0 right-0 z-40 bg-white transition-all duration-500 ease-in-out ${
+        isScrolled ? 'shadow-md' : ''
+      }`}>
+        <div className={`flex items-center justify-between px-6 lg:px-0 container mx-auto transition-all duration-500 ease-in-out ${
+          isScrolled ? 'py-2' : 'py-4'
+        }`}>
           {/* Enquire Now Button */}
           <div className="hidden lg:block">
             <Button href="/contact-us">Enquire Now</Button>

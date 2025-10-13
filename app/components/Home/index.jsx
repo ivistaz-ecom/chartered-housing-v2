@@ -9,18 +9,18 @@ const index = () => {
   return (
     <>
       <div className="container mx-auto">
-        <Banner
-          backgroundImage={null}
-          mobileBackgroundImage={null}
-          title={false}
-          subtitle={false}
-          textPosition="bottom-left"
-          overlayOpacity={0.2}
-          showDivide={false}
-          useVideo={true}
-          backgroundVideo={"/videos/Chattered-Banner.webm"}
-          mobileBackgroundVideo={"/videos/Chattered-Banner-Mobile.webm"}
-        />
+      <Banner
+        backgroundImage="/banners/chartered-thumbnail-desktop.jpg"   // 👈 fallback image for desktop
+        mobileBackgroundImage="/banners/chartered-thumbnail-mobile.jpg" // 👈 fallback image for mobile
+        title={false}
+        subtitle={false}
+        textPosition="bottom-left"
+        overlayOpacity={0.2}
+        showDivide={false}
+        useVideo={true}
+        backgroundVideo="/videos/Chattered-Banner.webm"
+        mobileBackgroundVideo="/videos/Chattered-Banner-Mobile.webm"
+      />
       </div>
       <Content />
       <ProjectsSection />
