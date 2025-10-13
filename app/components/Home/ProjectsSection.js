@@ -36,7 +36,7 @@ const ProjectsSection = () => {
       logoAlt: "Chartered 1956 Logo",
       title: "An exclusive luxury residence",
       description:
-        "Set in the heart of Palace Road, Chartered 1956 is a rare 9-floor development with just 7 boutique residences — one per floor. Rooted in royal lineage and inspired by timeless design, each 5584 sq. ft. apartment offers 4 spacious bedrooms, private lift access, a personal lobby, and a separate service zone for staff and deliveries.",
+        "Set in the heart of Palace Road, Chartered 1956 is a rare 9-floor development with just 7 boutique residences - one per floor. Rooted in royal lineage and inspired by timeless design, each 5584 sq. ft. apartment offers 4 spacious bedrooms, private lift access, a personal lobby, and a separate service zone for staff and deliveries.",
       buttonLink: "/projects/ongoing/chartered-1956",
       desktopLogoWidth: 200,
       desktopLogoHeight: 100,

@@ -14,7 +14,7 @@ const Content = () => {
               the environment, and everyday lives.
             </h6>
             <div>
-              <h3 className="text-[#ED1C24] roboto-serif-light mb-5 tracking-wide text-3xl text-center">
+              <h3 className="text-[#ED1C24] roboto-serif-light mb-5 tracking-wide lg:text-3xl text-2xl text-center">
                 People Before Profit
               </h3>
               <h6 className=" lg:text-[30px] text-[20px] text-[#646464] text-left">

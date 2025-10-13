@@ -4,6 +4,7 @@ import {
   CheckboxField,
   PhoneInputField,
   SelectField,
+  TextAreaField,
   TextInputField,
 } from "@/app/components/Form/FormField";
 import Link from "next/link";
@@ -69,7 +70,7 @@ const SendUsYourQueryForm = () => {
           )}
         </div>
 
-        <div>
+        {/* <div>
           <SelectField
             value={formData.purpose}
             onChange={handleSelectChange}
@@ -81,12 +82,12 @@ const SendUsYourQueryForm = () => {
               {fieldErrors.purpose}
             </span>
           )}
-        </div>
+        </div> */}
 
-        {/* <div>
+        <div>
           <TextAreaField
             name="message"
-            placeholder="Your Message (Optional)"
+            placeholder="Your Message"
             value={formData.message}
             onChange={handleChange}
           />
@@ -95,7 +96,7 @@ const SendUsYourQueryForm = () => {
               {fieldErrors.message}
             </span>
           )}
-        </div> */}
+        </div>
 
         <div>
           <CheckboxField

@@ -52,6 +52,9 @@ const ProjectDetails = () => {
             ))}
           </div>
         </div>
+        <div className="mt-14">
+        <h6 className="text-white text-2xl">*Subject to regulatory guidelines on public road access</h6>
+        </div>
       </div>
     </div>
   )

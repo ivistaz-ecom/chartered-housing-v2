@@ -17,6 +17,7 @@ const WeBringToTheTable = () => {
             width={600}
             height={575}
             alt="We bring to the table"
+            className="lg:h-[540px] object-cover"
           />
         </div>
         <div className="lg:w-1/2 w-full">

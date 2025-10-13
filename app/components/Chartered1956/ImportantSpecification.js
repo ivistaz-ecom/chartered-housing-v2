@@ -29,7 +29,7 @@ const ImportantSpecification = () => {
                 </h2>
                 <div className="border-t border-[#ED1C25] w-3/4 mx-auto mb-10"></div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-5 md:px-0">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-10 gap-5 px-5 md:px-0">
                     {/* Left Column */}
                     <ul className="space-y-5">
                         {leftSpecs.map((item, index) => (
@@ -41,7 +41,7 @@ const ImportantSpecification = () => {
                     </ul>
 
                     {/* Right Column */}
-                    <ul className="space-y-5 md:border-l border-t md:border-t-0 border-dotted border-red-300 md:pl-6 pt-10 md:pt-0">
+                    <ul className="space-y-5 md:border-l border-dotted border-[#ED1C25] md:pl-6  md:pt-0">
                         {rightSpecs.map((item, index) => (
                             <li key={index} className="flex items-start">
                                 <span className="text-[#ED1C25] text-xl mr-3 leading-tight">•</span>

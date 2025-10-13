@@ -6,7 +6,9 @@ const Banner = ({
   backgroundImage = null,
   mobileBackgroundImage = null,
   backgroundVideo = null,
+  backgroundVideoSafari = null,
   mobileBackgroundVideo = null,
+  mobileBackgroundVideoSafari = null,
   sectionTitle = null,
   title = null,
   subtitle = null,
@@ -56,7 +58,7 @@ const Banner = ({
             playsInline
             onError={() => setVideoFailed(true)}
           >
-            <source src={backgroundVideo} type="video/mp4" />
+            <source src={backgroundVideoSafari} type="video/mp4" />
             <source src={backgroundVideo} type="video/webm" />
           </video>
 
@@ -69,7 +71,7 @@ const Banner = ({
               playsInline
               onError={() => setVideoFailed(true)}
             >
-              <source src={mobileBackgroundVideo} type="video/mp4" />
+              <source src={mobileBackgroundVideoSafari} type="video/mp4" />
               <source src={mobileBackgroundVideo} type="video/webm" />
             </video>
           )}
@@ -109,7 +111,7 @@ const Banner = ({
       {/* Text Overlay */}
       <div className={`${getTextPositionClasses()} text-white z-10 px-4`}>
         <div className="flex justify-start mb-4 items-center">
-          <span className="font-medium uppercase tracking-wider mr-4">
+          <span className="font-medium uppercase tracking-wider mr-4 lg:text-[16px] text-[15px]">
             {sectionTitle}
           </span>
           {showDivide && <div className="w-8 h-1 bg-red-500"></div>}

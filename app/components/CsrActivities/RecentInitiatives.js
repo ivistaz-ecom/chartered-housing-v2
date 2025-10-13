@@ -30,7 +30,7 @@ const sectionData = {
       points: [
         <>
           Among the first to adopt <b>tree transplantation</b> in Bangalore
-          (Chartered Coronet, 2006), saving hundreds of mature specimens.
+          (Chartered Coronet, 2006), saving hundreds of mature specimens
         </>,
         <>
           <b>Natural rock formations</b> preserved across multiple projects

@@ -7,7 +7,7 @@ const Grid = () => {
     {
       id: 1,
       title: "Palace Road",
-      reraNumber: "PRM/KA/RERA/1251/472/PR/210325/007605",
+      reraNumber: "PRM/KA/RERA/1251/446/PR/060924/007005",
       desktopImage: "/ongoing-project/palace.png",
       mobileImage: "/ongoing-project/palace.png",
       logo: "/ongoing-project/chartered-1956.svg",

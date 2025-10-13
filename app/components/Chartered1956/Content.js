@@ -24,7 +24,7 @@ const Content = () => {
             </h6>
           </div>
           <div className="flex flex-col items-center justify-center gap-7 pt-10">
-            <h3 className="text-center lg:text-left text-[#646464] lg:text-[40px] text-[30px] font-semibold">
+            <h3 className="text-center lg:text-left text-[#646464] lg:text-[40px] text-[25px] font-semibold">
               THE &apos;1956&apos; STORY
             </h3>
             <h6 className="text-center lg:text-[30px] text-[20px] text-[#646464] lg:text-left">

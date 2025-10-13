@@ -143,6 +143,7 @@ export const useFormHandler = (formId) => {
           formId !== 5854 &&
           formId !== 5858 &&
           formId !== 5859 &&
+          formId !== 5850 &&
 
           (!value || !value.trim())
         ) {

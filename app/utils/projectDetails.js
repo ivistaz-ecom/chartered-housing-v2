@@ -72,7 +72,7 @@ export const chBirdsongProjectDetails = [
       'Underground utilities <br /> for <span class="text-[#ED1C25]">electricity, water, <br /> and sewage</span>',
   },
   {
-    icon: "/chartered-birdsong/img5.svg",
+    icon: "/chartered-birdsong/electric.svg",
     title:
       '<span class="text-[#ED1C25]">Electric cabling and street lighting</span>  via underground conduits',
   },
