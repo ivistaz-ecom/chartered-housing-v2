@@ -20,6 +20,8 @@ const CharteredBirdsong = () => {
         subtitle=" Discover plotted living crafted for future-forward families."
         textPosition="bottom-left"
         overlayOpacity={0.2}
+        reraNumber="PRM/KA/RERA/1251/472/PR/210325/007605"
+
       />
       <BreadCrumbs title="Chartered Birdsong" />
       <Content />

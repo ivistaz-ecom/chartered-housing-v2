@@ -20,6 +20,7 @@ const Chartered1956 = () => {
         subtitle="royal heritage meets refined modern living"
         textPosition="bottom-left"
         overlayOpacity={0.2}
+        reraNumber="PRM/KA/RERA/1251/446/PR/060924/007005"
       />
       <BreadCrumbs title="Chartered 1956" />
       <Content />

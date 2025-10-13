@@ -9,6 +9,7 @@ const Banner = ({
   backgroundVideoSafari = null,
   mobileBackgroundVideo = null,
   mobileBackgroundVideoSafari = null,
+  reraNumber = null,
   sectionTitle = null,
   title = null,
   subtitle = null,
@@ -93,7 +94,9 @@ const Banner = ({
 
           {mobileBackgroundImage && (
             <div
-              className={`absolute inset-0 ${shouldUseImageFallback ? 'h-[100vh]' : 'h-[90vh]'} bg-no-repeat bg-cover lg:hidden`}
+              className={`absolute inset-0 ${
+                shouldUseImageFallback ? "h-[100vh]" : "h-[90vh]"
+              } bg-no-repeat bg-cover lg:hidden`}
               style={{
                 backgroundImage: `url(${mobileBackgroundImage})`,
                 backgroundColor: "#f0f9f0",
@@ -116,8 +119,14 @@ const Banner = ({
           </span>
           {showDivide && <div className="w-8 h-1 bg-red-500"></div>}
         </div>
-        <h2 className="text-3xl lg:text-4xl font-semibold mb-2">{title}</h2>
-        <h6 className="text-4xl lg:text-5xl font-bold">{subtitle}</h6>
+        <h2 className="text-2xl lg:text-4xl font-semibold mb-2">{title}</h2>
+        
+        <div className="flex lg:flex-row flex-col justify-between lg:items-center lg:gap-15 gap-4">
+          <h6 className="text-3xl lg:text-5xl font-bold">{subtitle}</h6>
+          <div className="text-left">
+            <h5 className="text-md">{reraNumber}</h5>
+          </div>
+        </div>
       </div>
       {/* Contact Options - Fixed at bottom */}
       <div className="bottom-[5%] left-1/2 -translate-x-1/2 z-20 bg-white p-3 shadow-2xl floating-button fixed">
