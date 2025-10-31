@@ -6,20 +6,21 @@ const achievements = [
     title: "Configuration",
     desc: (
       <>
-        Basement + <br />
-        Ground + 3 Floors
+       Basement, 
+       <br />
+       Ground Floor & <br /> 3 Upper Floors
       </>
     ),
   },
   {
     title: (
       <>
-        <span className="lg:pr-10">Total Area</span>
+        <span className="lg:pr-0">Total Area</span>
       </>
     ),
     desc: (
       <>
-        <span className="lg:pr-10 flex justify-center">
+        <span className="lg:pr-0 flex justify-center">
           Approx. <br />
           30,000 sq. ft.
         </span>
@@ -29,12 +30,12 @@ const achievements = [
   {
     title: (
       <>
-        <span className="lg:pr-7">Floor Plate</span>
+        <span className="lg:pr-0">Floor Plate</span>
       </>
     ),
     desc: (
       <>
-          <span className="lg:pr-7 flex justify-center">
+          <span className="lg:pr-0 flex justify-center">
           Approx. <br />
           7,400 sq. ft. </span>
       </>
@@ -43,12 +44,12 @@ const achievements = [
   {
     title: (
       <>
-        <span className="lg:pr-7">Car Park Ratio</span>
+        <span className="lg:pr-0">Car Park Ratio</span>
       </>
     ),
     desc: (
       <>
-        <span className="lg:pr-7 flex justify-center">
+        <span className="lg:pr-0 flex justify-center">
           1 slot for every <br />
           1,000 sq. ft.
         </span>
@@ -71,7 +72,7 @@ const ProjectDetails = () => {
         </h3>
 
         {/* Achievements Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 text-left border border-[#ED1C25] lg:p-15 p-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-0 text-left border border-[#ED1C25] lg:p-15 p-5">
           {achievements.map((item, idx) => (
             <div
               key={idx}

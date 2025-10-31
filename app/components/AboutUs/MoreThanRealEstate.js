@@ -88,7 +88,7 @@ const MoreThanRealEstate = () => {
   return (
     <div className="w-full px-6 py-10 md:py-24 bg-white">
       {/* Heading */}
-      <div className="container mx-auto">
+      <div className="max-w-7xl mx-auto">
         <h3 className="text-[#ED1C24] roboto-serif-light tracking-wide text-2xl">
           MORE THAN
         </h3>
@@ -99,14 +99,14 @@ const MoreThanRealEstate = () => {
       </div>
 
       {/* Infinite Carousel */}
-      <div className="lg:mt-12 flex md:gap-10 lg:gap-28 flex-col lg:flex-row justify-center md:justify-end container mx-auto">
-        <div>
+      <div className="lg:mt-12 flex md:gap-10 lg:gap-28 flex-col lg:flex-row justify-center md:justify-end max-w-7xl mx-auto">
+        <div className="w-[40%]">
           <h5 className="text-[#646464] lg:text-3xl text-2xl max-w-5xl pt-5">
-            Chartered today delivers a <br /> diverse portfolio, including:
+            Chartered today  delivers <br /> a  diverse portfolio, including:
           </h5>
         </div>
         <div
-          className="relative overflow-hidden w-full md:w-2/3 py-5 lg:py-0"
+          className="relative overflow-hidden w-full md:w-[80%] py-5 lg:py-0"
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
         >

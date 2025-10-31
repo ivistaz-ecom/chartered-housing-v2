@@ -13,6 +13,7 @@ const Banner = ({
   sectionTitle = null,
   title = null,
   subtitle = null,
+  subtitle2 = null,
   textPosition = "bottom-left", // "bottom-left", "center", "bottom-right", "middle"
   overlayOpacity = 0.2,
   showDivide = true,
@@ -119,14 +120,23 @@ const Banner = ({
           </span>
           {showDivide && <div className="w-8 h-1 bg-red-500"></div>}
         </div>
-        <h2 className="text-2xl lg:text-4xl font-semibold mb-2">{title}</h2>
-        
-        <div className="flex lg:flex-row flex-col justify-between lg:items-center lg:gap-15 gap-4">
-          <h6 className="text-3xl lg:text-5xl font-bold">{subtitle}</h6>
+        <h2 className="text-xl lg:text-4xl font-semibold mb-2">{title}</h2>
+
+        <div className="flex lg:flex-row flex-col justify-between lg:items-center lg:gap-48 gap-0">
+          <h6 className="text-2xl lg:text-[45px] font-bold">
+            {subtitle}{" "} <br/>
+            {subtitle2 && (
+              <span className="text-2xl lg:text-[45px] font-bold">
+                {subtitle2}
+              </span>
+            )}
+          </h6>{" "}
+          <br />
           <div className="text-left">
             <h5 className="text-md">{reraNumber}</h5>
           </div>
         </div>
+        {/* {subtitle2 && <span className="text-3xl lg:text-5xl font-bold">{subtitle2}</span>} */}
       </div>
       {/* Contact Options - Fixed at bottom */}
       <div className="bottom-[5%] left-1/2 -translate-x-1/2 z-20 bg-white p-3 shadow-2xl floating-button fixed">

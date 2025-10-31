@@ -17,7 +17,8 @@ const Chartered1956 = () => {
         mobileBackgroundImage="/chartered-1956/mobile-banner.png"
         sectionTitle="CHARTERED 1956"
         title="A timeless residence where"
-        subtitle="royal heritage meets refined modern living"
+        subtitle="royal heritage meets refined "
+        subtitle2="modern living"
         textPosition="bottom-left"
         overlayOpacity={0.2}
         reraNumber="PRM/KA/RERA/1251/446/PR/060924/007005"

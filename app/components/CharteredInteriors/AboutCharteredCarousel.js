@@ -11,8 +11,6 @@ const slideData = [
     serviceTitle: "Residential Interiors",
     serviceDescription:
       "Tailored living spaces for apartments and homes that feel uniquely yours.",
-    buttonLink: "/chartered-interiors/residential",
-    buttonText: "Start Your Project",
     image: "/chartered-interiors/residential-interiors.png",
     alt: "Residential Interiors",
   },
@@ -21,8 +19,6 @@ const slideData = [
     serviceTitle: "Retail Interiors",
     serviceDescription:
       "Smart, inviting spaces that turn footfall into loyal customers.",
-    buttonLink: "/chartered-interiors/commercial",
-    buttonText: "Explore Solutions",
     image: "/chartered-interiors/retail.png",
     alt: "Retail Interiors",
   },
@@ -31,8 +27,6 @@ const slideData = [
     serviceTitle: "Office Interiors",
     serviceDescription:
       "Future-ready workspaces with an eye on culture, function, and flow.",
-    buttonLink: "/chartered-interiors/hospitality",
-    buttonText: "Discover More",
     image: "/chartered-interiors/office.png",
     alt: "Office Interiors",
   },
@@ -101,7 +95,7 @@ const AboutChartered = () => {
                   </h5>
                   <p className="mb-5">{currentData.serviceDescription}</p>
                   <div>
-                    <Button href={currentData.buttonLink}>
+                    <Button href="/contact-us">
                       Start Your Project
                     </Button>
                   </div>
@@ -146,7 +140,7 @@ const AboutChartered = () => {
                   </h5>
                   <p className="mb-5">{currentData.serviceDescription}</p>
                   <div>
-                    <Button href={currentData.buttonLink}>
+                    <Button href="/contact-us">
                       Start Your Project
                     </Button>
                   </div>

@@ -17,7 +17,8 @@ const CharteredBirdsong = () => {
         mobileBackgroundImage="/chartered-birdsong/mobile-banner.png"
         sectionTitle="Chartered Birdsong"
         title="Space to dream. Freedom to build."
-        subtitle=" Discover plotted living crafted for future-forward families."
+        subtitle=" Discover plotted living crafted "
+        subtitle2="for future-forward families."
         textPosition="bottom-left"
         overlayOpacity={0.2}
         reraNumber="PRM/KA/RERA/1251/472/PR/210325/007605"
