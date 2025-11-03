@@ -4,10 +4,10 @@ import NextSeo from "./components/Shared/Seo";
 
 const page = () => {
   const seoField = {
-    title: "Chartered Housing | The Standard for Excellence in Ship Management",
+    title: "Leading Builders & Developers in Bangalore | Chartered",
     description:
-      "For over 17 years, Nautilus Shipping has provided reliable ship management services, including technical management, crew management, inspections, and commercial solutions. With 200+ ships manned and 100,000+ seafarers in our network, we deliver maritime excellence globally.",
-    path: "/",
+      "Chartered Housing, one of Bangalore’s most trusted real estate developers, offers luxury apartments, boutique residences, villas, and premium plotted projects.",
+    path: "",
   }
 
   return (

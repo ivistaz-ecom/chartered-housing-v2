@@ -45,7 +45,7 @@ const Banner = ({
         return "absolute lg:bottom-40 bottom-25 lg:left-20 left-0";
     }
   };
-  const shouldUseImageFallback = videoFailed || isIOS;
+  const shouldUseImageFallback = videoFailed && isIOS;
   return (
     <div className="relative overflow-hidden h-screen w-full">
       {/* Background Image/Video */}
@@ -58,7 +58,7 @@ const Banner = ({
             muted
             loop
             playsInline
-            onError={() => setVideoFailed(true)}
+            // onError={() => setVideoFailed(true)}
           >
             <source src={backgroundVideoSafari} type="video/mp4" />
             <source src={backgroundVideo} type="video/webm" />
@@ -71,7 +71,7 @@ const Banner = ({
               muted
               loop
               playsInline
-              onError={() => setVideoFailed(true)}
+              // onError={() => setVideoFailed(true)}
             >
               <source src={mobileBackgroundVideoSafari} type="video/mp4" />
               <source src={mobileBackgroundVideo} type="video/webm" />

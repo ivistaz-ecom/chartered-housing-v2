@@ -3,7 +3,7 @@ import React from "react"
 
 function NextSeo({ title, description, path, metaImage }) {
   // Dynamically get the domain name from window.location (client-side)
-  const domainName = typeof window !== "undefined" ? window.location.origin : " https://www.charteredhousing.com"
+  const domainName = typeof window !== "undefined" ? window.location.origin : "https://chartered-housing-v2.vercel.app"
 
   return (
     <head>
@@ -29,10 +29,10 @@ function NextSeo({ title, description, path, metaImage }) {
             "@context": "https://schema.org/",
             "@type": "WebSite",
             name: "Chartered Housing",
-            url: "https://www.charteredhousing.com/",
+            url: "https://chartered-housing-v2.vercel.app",
             potentialAction: {
               "@type": "SearchAction",
-              target: `https://www.charteredhousing.com${path}`,
+              target: `https://chartered-housing-v2.vercel.app${path}`,
               "query-input": "required name=search_term_string",
             },
           }),
