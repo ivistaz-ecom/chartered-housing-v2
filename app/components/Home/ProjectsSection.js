@@ -129,13 +129,13 @@ const ProjectsSection = () => {
 
               {/* Text Content */}
               <div className="lg:mt-5 mt-20">
-                <h2 className="roboto-serif-light text-[24px] text-[#000]">
+                <h2 className="roboto-serif-medium text-[24px] text-[#646464]">
                   {currentProject.ProjectTitle}
                 </h2>
                 <h2 className="roboto-serif-light text-4xl text-[#ED1C25]">
                   {currentProject.title}
                 </h2>
-                <h6 className="text-gray-700 mt-3 text-[18px] leading-relaxed">
+                <h6 className="text-[#646464] mt-3 text-[18px] leading-relaxed">
                   {currentProject.description}
                 </h6>
                 <div className="py-5">

@@ -116,7 +116,7 @@ const StatsSection = () => {
           {stats.map((item, index) => (
             <div
               key={item.id}
-              className={`bg-white text-black shadow-lg w-full overflow-hidden transition-all duration-1000 ease-out ${
+              className={`bg-white text-[#646464] shadow-lg w-full overflow-hidden transition-all duration-1000 ease-out ${
                 isVisible
                   ? index % 2 === 1 
                     ? "lg:translate-y-10 translate-y-0 opacity-100" 
@@ -141,7 +141,7 @@ const StatsSection = () => {
                     "0"
                   )}
                 </h3>
-                <h5 className="mt-0 text-gray-700 text-2xl">{item.text}</h5>
+                <h5 className="mt-0 text-[#646464] text-2xl">{item.text}</h5>
               </div>
               <Image
                 src={item.image}
