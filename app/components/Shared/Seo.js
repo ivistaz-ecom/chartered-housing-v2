@@ -3,7 +3,8 @@ import React from "react"
 
 function NextSeo({ title, description, path, metaImage }) {
   // Dynamically get the domain name from window.location (client-side)
-  const domainName = typeof window !== "undefined" ? window.location.origin : "https://chartered-housing-v2.vercel.app"
+  // const domainName = typeof window !== "undefined" ? window.location.origin : "https://chartered-housing-v2.vercel.app"
+  const domainName = "https://chartered-housing-v2.vercel.app"
 
   return (
     <head>
