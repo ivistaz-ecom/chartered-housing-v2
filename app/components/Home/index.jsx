@@ -8,7 +8,7 @@ import SuccessStories from "./SuccessStories";
 const index = () => {
   return (
     <>
-      <div className="container mx-auto">
+      <div className="">
       <Banner
         backgroundImage="/banners/chartered-thumbnail-desktop.jpg"   // 👈 fallback image for desktop
         mobileBackgroundImage="/home/phone-banner.jpg" // 👈 fallback image for mobile

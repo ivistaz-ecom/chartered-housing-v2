@@ -74,7 +74,7 @@ const Grid = () => {
                     className=""
                   />
                 </div>
-                <h4 className="lg:text-4xl text-3xl text-[#646464] font-semibold py-5">
+                <h4 className="lg:text-[24px] text-3xl text-[#646464] font-semibold py-5">
                   {project.title}
                 </h4>
                 <div className="flex flex-col gap-4 flex-grow">

@@ -6,7 +6,7 @@ const Content = () => {
       <div className="lg:px-0 px-5">
         <div className="container mx-auto lg:py-20 py-5">
           <div className="flex flex-col items-center justify-center gap-7">
-            <h6 className=" lg:text-[30px] text-[20px] text-[#646464] text-left">
+            <h6 className=" lg:text-[24px] text-[20px] text-[#646464] text-left">
               Explore our curated selection of ongoing projects - each designed
               with care, built with integrity, and progressing with precision.
               From thoughtfully planned boutique residences to premium plotted

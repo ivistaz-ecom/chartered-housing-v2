@@ -69,7 +69,7 @@ export default function TestimonialsCarousel() {
                 className="w-32 h-32 lg:w-40"
               />
             </div>
-            <h2 className="text-[#ED1C24] roboto-serif-light lg:text-[36px] text-[31px] font-medium lg:mt-10 leading-tight">
+            <h2 className="text-[#ED1C24] roboto-serif-light lg:text-[36px] text-[24px] font-medium lg:mt-10 leading-tight">
               What our <br className="hidden lg:block" /> customers <br className="hidden lg:block" /> are  saying
             </h2>
           </div>

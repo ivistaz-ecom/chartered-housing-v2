@@ -117,20 +117,20 @@ const Banner = ({
       {/* Text Overlay */}
       <div className={`${getTextPositionClasses()} text-white z-10 px-4`}>
         <div className="flex justify-start mb-4 items-center">
-        {logo && <Image src={logo} alt="Logo" width={100} height={100} />}  
+        {logo && <Image src={logo} alt="Logo" width={120} height={120} className="mb-3"/>}  
           <span className="font-medium uppercase tracking-wider mr-4 lg:text-[16px] text-[15px]">
             {sectionTitle}
           </span>
           {showDivide && <div className="w-8 h-1 bg-red-500"></div>}
         </div>
-        <h2 className="text-xl lg:text-4xl font-semibold mb-2">{title}</h2>
+        <h2 className="text-xl lg:text-[24px] font-semibold mb-2">{title}</h2>
        
 
         <div className="flex lg:flex-row flex-col justify-between lg:items-center lg:gap-48 gap-0">
-          <h6 className="text-2xl lg:text-[45px] font-bold">
+          <h6 className="text-2xl lg:text-[36px] font-bold">
             {subtitle}{" "} <br/>
             {subtitle2 && (
-              <span className="text-2xl lg:text-[45px] font-bold">
+              <span className="text-2xl lg:text-[36px] font-bold">
                 {subtitle2}
               </span>
             )}

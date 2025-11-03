@@ -6,7 +6,7 @@ const SuccessStories = () => {
     <>
       <div className="py-20 lg:px-0 px-5">
         <div className="container mx-auto uppercase">
-          <h3 className="text-[#ED1C24] roboto-serif-medium tracking-wide text-4xl">
+          <h3 className="text-[#ED1C24] roboto-serif-medium tracking-wide lg:text-4xl text-[24px]">
             Client
           </h3>
           <h2 className="text-4xl pt-1 md:text-6xl font-bold text-[#646464] roboto-serif-regular">

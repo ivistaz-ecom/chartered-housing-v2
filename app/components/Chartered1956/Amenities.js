@@ -36,7 +36,7 @@ const Amenities = () => {
       {/* Overlay */}
 
       <div className="relative z-10 container mx-auto text-center text-white px-5 md:px-0">
-        <h2 className="text-4xl font-light mb-12 roboto-serif-regular">Amenities</h2>
+        <h2 className="lg:text-[36px] text-[24px] font-light mb-12 roboto-serif-regular">Amenities</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-start">
           {amenitiesData.map((item, index) => (

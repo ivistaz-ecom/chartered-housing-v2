@@ -19,7 +19,7 @@ const sectionData = {
       ],
       ending:
       <>
-      <h6 className="lg:text-[18px] text-[20px] text-[#646464] font-light">
+      <h6 className="lg:text-[18px] text-[18px] text-[#646464]">
       Empowering children through education is one of the most enduring ways to build better lives. This initiative is just the beginning.</h6></>,
     },
     {
@@ -29,18 +29,18 @@ const sectionData = {
       image: "/csr/evs.png",
       points: [
         <>
-          Among the first to adopt <b>tree transplantation</b> in Bangalore
+          Among the first to adopt tree transplantation in Bangalore
           (Chartered Coronet, 2006), saving hundreds of mature specimens
         </>,
         <>
-          <b>Natural rock formations</b> preserved across multiple projects
+          Natural rock formations preserved across multiple projects
         </>,
         <>
-          <b>Healing & spiritual plant species</b> integrated into parks at
+          Healing & spiritual plant species integrated into parks at
           Windsong & Fireflies
         </>,
         <>
-          <b>Urban tree planting</b> in partnership with BBMP & Rathna Avenue
+          Urban tree planting in partnership with BBMP & Rathna Avenue
         </>,
       ],
       ending:
@@ -52,13 +52,13 @@ const sectionData = {
       image: "/csr/worker.png",
       points: [
         <>
-          Regular <b>on-site health checks</b>
+          Regular on-site health checks
         </>,
         <>
-          <b>Mid-day meals,</b> creche support, and daily nutrition
+          Mid-day meals, creche support, and daily nutrition
         </>,
         <>
-          <b>Winter kits</b> with sweaters and blankets for labourers
+          Winter kits with sweaters and blankets for labourers
         </>,
       ],
       ending: `These aren't just policies, they’re the foundation of a humane and dignified workplace.`,
@@ -69,10 +69,10 @@ const sectionData = {
       image: "/csr/rural.png",
       points: [
         <>
-          <b>Health & accident insurance</b> for 500+ farm workers
+          Health & accident insurance for 500+ farm workers
         </>,
         <>
-          Weekly rural <b>health camps</b> in partnership with Sevanjali
+          Weekly rural health camps in partnership with Sevanjali
           Prathishtana
         </>,
       ],
@@ -83,15 +83,15 @@ const sectionData = {
       image: "/csr/education.png",
       points: [
         <>
-          <b className="text-[#ED1C24]">Creche Support:</b> On-site day care and
+          <b className="text-[#646464]">Creche Support:</b> On-site day care and
           early learning for labourers’ children
         </>,
         <>
-          <b className="text-[#ED1C24]">Nutrition & Hygiene:</b> Balanced meals
+          <b className="text-[#646464]">Nutrition & Hygiene:</b> Balanced meals
           and daily health routines
         </>,
         <>
-          <b className="text-[#ED1C24]">Environment & Arts Education:</b>{" "}
+          <b className="text-[#646464]">Environment & Arts Education:</b>{" "}
           Ongoing engagement through NGOs and cultural foundations
         </>,
       ],
@@ -106,7 +106,7 @@ export default function RecentInitiatives() {
       {sectionData.initiatives.map((initiative, index) => (
         <div key={index}>
           <div>
-            <h6 className="lg:text-[24px] text-[20px] text-[#646464] font-light text-center pb-5">
+            <h6 className="lg:text-[24px] text-[20px] text-[#646464] font-regular text-center pb-5">
               {initiative.mainTitle}
             </h6>
           </div>
@@ -127,21 +127,21 @@ export default function RecentInitiatives() {
               <h3 className="text-[#ED1C24] mb-5 tracking-wide lg:text-[24px] text-[20px] lg:pt-10">
                 {initiative.title}
               </h3>
-              <h4 className="lg:text-[18px] text-[20px] text-[#646464] font-light">
+              <h4 className="lg:text-[18px] text-[18px] text-[#646464] font-">
                 {initiative.description}
               </h4>
 
               <div className="text-left py-5 pl-5">
                 <ul className="list-disc list-outside flex flex-col gap-3 py- marker-red">
                   {initiative.points.map((point, i) => (
-                    <li key={i} className="marker-red text-lg">
+                    <li key={i} className="marker-red text-[18px] text-[#646464]">
                       {point}
                     </li>
                   ))}
                 </ul>
               </div>
 
-              {initiative.ending && <h6 className="text-[18px]">{initiative.ending}</h6>}
+              {initiative.ending && <h6 className="text-[18px] text-[#646464]">{initiative.ending}</h6>}
             </div>
           </div>
         </div>

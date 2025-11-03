@@ -30,7 +30,7 @@ const Form1956 = () => {
         <form className="" onSubmit={handleSubmit} id={formId}>
           <div className="max-w-4xl mx-auto w-full flex flex-col items-center">
             <div className="border border-[#ED1C25] py-5 px-10 w-full flex flex-col gap-8">
-              <h3 className="lg:text-3xl text-2xl text-[#646464] text-center">
+              <h3 className="lg:text-[24px] text-2xl text-[#646464] text-center">
                 We’d Love to Hear From You
               </h3>
 
@@ -116,7 +116,7 @@ const Form1956 = () => {
                   {isSubmitting ? "Requesting a Callback..." : "Request a Callback"}
                 </Button>
               </div>
-              <h6 className="text-[#646464] lg:text-xl text-center">
+              <h6 className="text-[#646464] lg:text-[18px] text-center">
                 By continuing, you agree to our{" "}
                 <Link
                   target="_blank"

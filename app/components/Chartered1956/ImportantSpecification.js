@@ -24,7 +24,7 @@ const ImportantSpecification = () => {
     return (
         <section className="md:py-16 py-0">
             <div className="max-w-6xl mx-auto bg-[#DBDBDB] md:p-10 shadow-sm py-20">
-                <h2 className="lg:text-[36px] text-[30px] text-center text-[#ED1C25] mb-6 roboto-serif-regular">
+                <h2 className="lg:text-[36px] text-[24px] text-center text-[#ED1C25] mb-6 roboto-serif-regular">
                     Important Specifications
                 </h2>
                 <div className="border-t border-[#ED1C25] w-3/4 mx-auto mb-10"></div>
@@ -35,7 +35,7 @@ const ImportantSpecification = () => {
                         {leftSpecs.map((item, index) => (
                             <li key={index} className="flex items-start">
                                 <span className="text-[#ED1C25] text-xl mr-3 leading-tight">•</span>
-                                <p className="text-[#646464] leading-relaxed">{item}</p>
+                                <h6 className="text-[#646464] leading-relaxed text-[18px]">{item}</h6>
                             </li>
                         ))}
                     </ul>
@@ -45,7 +45,7 @@ const ImportantSpecification = () => {
                         {rightSpecs.map((item, index) => (
                             <li key={index} className="flex items-start">
                                 <span className="text-[#ED1C25] text-xl mr-3 leading-tight">•</span>
-                                <p className="text-[#646464] leading-relaxed">{item}</p>
+                                <h6 className="text-[#646464] leading-relaxed text-[18px]">{item}</h6>
                             </li>
                         ))}
                     </ul>
