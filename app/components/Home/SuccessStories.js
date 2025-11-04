@@ -13,7 +13,7 @@ const SuccessStories = () => {
             Success Stories
           </h2>
           <div className="lg:w-44 w-32 border-b-2 border-[#ED1C24] mt-3 mb-6 mx-1"></div>
-          <div className="w-full pt-10">
+          <div className="w-full lg:pt-10 pt-5">
             <div className="relative w-full pb-[56.25%] h-0 overflow-hidden">
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
@@ -26,7 +26,7 @@ const SuccessStories = () => {
               ></iframe>
             </div>
             {/* <div className="lg:w-56 w-32 border-t-2 border-[#ED1C24] my-2"></div> */}
-            <div className="lg:w-44 w-32 border-b-2 border-[#ED1C24] mt-3 mb-6 mx-1"></div>
+            {/* <div className="lg:w-44 w-32 border-b-2 border-[#ED1C24] mt-3 mb-6 mx-1"></div> */}
           </div>
         </div>
         <div>
