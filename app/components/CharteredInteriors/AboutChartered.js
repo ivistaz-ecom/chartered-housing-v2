@@ -16,7 +16,7 @@ const AboutChartered = () => {
             />
           </div>
             <div className="flex flex-col lg:gap-5 gap-2 items-start justify-center lg:w-1/2 w-full">
-              <h1 className="lg:text-2xl text-xl font-light text-[#646464] uppercase">
+              <h1 className="lg:text-2xl text-xl font-light text-[#646464] uppercase roboto-serif-light">
                 ABOUT CHARTERED INTERIORS 
               </h1>
               <h4 className="lg:text-4xl text-2xl roboto-serif-light text-[#ED1C25]">

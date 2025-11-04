@@ -5,11 +5,11 @@ const Content = () => {
     <>
       <div className="lg:px-0 px-5">
         <div className="container mx-auto lg:py-10 py-5">
-          <div className="flex flex-col items-center justify-center gap-7">
-            <h3 className="roboto-serif-light text-center lg:text-left text-[#ED1C24] lg:text-4xl text-2xl">
+          <div className="flex flex-col justify-center gap-7">
+            <h3 className="roboto-serif-light text-center  text-[#ED1C24] lg:text-4xl text-2xl">
               A Life in Tune With Nature
             </h3>
-            <h6 className="text-center lg:text-2xl text-[20px] text-[#646464] lg:text-left">
+            <h6 className="text-center text-lg text-[#646464] lg:text-left">
               Tucked away just 15 minutes from the Yelahanka–Doddaballapur
               Highway, Chartered Birdsong offers a rare balance, of connectivity
               and calm, of premium planning and open skies. Spread across 19
@@ -18,7 +18,7 @@ const Content = () => {
               trust.
            
             </h6>
-            <h6 className="text-center lg:text-2xl text-[20px] text-[#646464] lg:text-left">
+            <h6 className="text-center text-lg text-[#646464] lg:text-left">
               With 265 premium plots, underground infrastructure, and landscaped
               parks, Birdsong blends thoughtful urban design with the quiet
               rhythm of nature.

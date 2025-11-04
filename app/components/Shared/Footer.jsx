@@ -69,7 +69,7 @@ const Footer = () => {
                 {/* LinkedIn Icon */}
                 <FaLinkedinIn size={25}/>
               </a>
-              <a target='_blank' href="https://www.youtube.com/@charteredhousing" className='w-10 h-10 bg-[#646464] rounded-full p-2 flex items-center justify-center hover:bg-gray-700 transition-colors'>
+              <a target='_blank' href="https://www.youtube.com/@charteredhousing25" className='w-10 h-10 bg-[#646464] rounded-full p-2 flex items-center justify-center hover:bg-gray-700 transition-colors'>
                 {/* Youtube Icon */}
                 <FaYoutube size={25}/>
               </a>

@@ -152,7 +152,7 @@ const Banner = ({
 
       {/* RERA Number - Bottom Right */}
       {reraNumber && (
-        <div className="absolute lg:bottom-44 bottom-16 lg:right-20 left-5 lg:left-0 text-white z-10 text-right">
+        <div className="absolute lg:bottom-44 bottom-10 lg:right-20 left-5 lg:left-0 text-white z-10 text-right">
           <h5 className="text-sm lg:text-base">{reraNumber}</h5>
         </div>
       )}

@@ -10,7 +10,7 @@ const WeBringToTheTable = () => {
   ]
   return (
     <div className="px-5 lg:px-0 lg:my-16 my-7">
-      <div className="max-w-7xl mx-auto flex lg:flex-row flex-col">
+      <div className="max-w-7xl mx-auto flex lg:flex-row flex-col justify-center items-center">
         <div className="lg:w-1/2 w-full">
           <Image
             src="/partner-with-us/we-bring-to-the-table.png"
@@ -28,7 +28,7 @@ const WeBringToTheTable = () => {
             {data.map((item, index) => (
               <li
                 key={index}
-                className="bg-[#EBEBEB] text-[#646464] text-xl lg:text-2xl italic leading-9 px-4 py-5 w-full"
+                className="bg-[#EBEBEB] text-[#646464] text-lg leading-9 px-4 py-2 w-full"
               >
                 {item}
               </li>

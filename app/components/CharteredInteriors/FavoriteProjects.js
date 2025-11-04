@@ -27,7 +27,7 @@ const FavoriteProjects = () => {
 
         {/* Center text - top (desktop only) */}
         <div className="lg:flex flex-col justify-center items-center text-center px-4 hidden md:block">
-          <h6 className="text-[#646464] text-2xl my-2 tracking-wider ">
+          <h6 className="text-[#646464] text-2xl my-2 tracking-wider roboto-serif-light">
             PORTFOLIO HIGHLIGHTS
           </h6> 
           <h2 className="text-[#ED1C25] text-xl md:text-4xl font-semibold roboto-serif-light">

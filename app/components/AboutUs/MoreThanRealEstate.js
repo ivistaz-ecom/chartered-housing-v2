@@ -101,12 +101,12 @@ const MoreThanRealEstate = () => {
       {/* Infinite Carousel */}
       <div className="lg:mt-12 flex md:gap-10 lg:gap-28 flex-col lg:flex-row justify-center md:justify-end max-w-7xl mx-auto">
         <div className="lg:w-[40%]">
-          <h5 className="text-[#646464] lg:text-2xl text-xl max-w-5xl lg:pt-5">
+          <h5 className="text-[#646464] text-lg max-w-5xl lg:pt-5">
             Chartered today  delivers <br /> a  diverse portfolio, including:
           </h5>
         </div>
         <div
-          className="relative overflow-hidden w-full md:w-[80%] py-5 lg:py-0"
+          className="relative overflow-hidden w-full md:w-full py-5 lg:py-0"
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
         >

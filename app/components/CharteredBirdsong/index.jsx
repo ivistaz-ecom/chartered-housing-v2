@@ -18,7 +18,7 @@ const CharteredBirdsong = () => {
         // sectionTitle="Chartered Birdsong"
         showDivide={false}
         logo="/chartered-birdsong/logo.svg"
-        logoWidth={400}
+        logoClassName="mb-3 w-60 h-auto lg:w-96 lg:h-auto"
         title="Space to dream. Freedom to build."
         subtitle=" Discover plotted living crafted "
         subtitle2="for future-forward families."

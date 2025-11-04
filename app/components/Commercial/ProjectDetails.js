@@ -68,7 +68,7 @@ const ProjectDetails = () => {
     <section className="bg-white text-black lg:pb-0  lg:px-0 px-5 pt-5 lg:pt-0">
       {/* Heading */}
       <div className="container mx-auto">
-        <h3 className="text-[#ED1C24] roboto-serif-light mb-5 tracking-wide text-xl text-center">
+        <h3 className="text-[#ED1C24] roboto-serif-light mb-5 tracking-wide lg:text-4xl text-2xl text-center">
           Project Details
         </h3>
 

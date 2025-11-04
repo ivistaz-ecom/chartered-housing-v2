@@ -7,7 +7,7 @@ const OurIdealPartners = () => {
         <h2 className="text-[#ED1C25] lg:text-4xl text-2xl lg:text-center roboto-serif-light">
           Advantages to Landowners
         </h2>
-        <h5 className="text-[#646464] lg:text-2xl text-xl lg:text-center">
+        <h5 className="text-[#646464] text-lg lg:text-center">
           Chartered projects command a higher prestige and better value in the
           market due to following reasons
         </h5>
