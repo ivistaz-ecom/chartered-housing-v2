@@ -30,11 +30,11 @@ const Grid = () => {
       alt: "Boutique Apartments",
       title: (
         <>
-          <span className="text-[#ED1C25] roboto-serif-medium">Boutique Apartments </span> <br />
+          <span className="text-[#ED1C25] roboto-serif-light">Boutique Apartments </span> <br />
         </>
       ),
       location: (
-        <span className="text-[#646464] roboto-serif-medium">Gandhi Bazaar, Basavanagudi</span>
+        <span className="text-[#646464] roboto-serif-light">Gandhi Bazaar, Basavanagudi</span>
       ),
       description:
         "Located in the heart of South Bangalore, at Gandhi Bazaar, Basavanagudi. Proposed to develop 2 & 3 bed apartments.",
@@ -60,10 +60,10 @@ const Grid = () => {
             <div className="flex flex-col justify-between flex-1 py-5">
               {/* Top Section */}
               <div className="flex flex-col gap-2">
-                <span className="text-[#ED1C25] text-2xl roboto-serif-medium">
+                <span className="text-[#ED1C25] text-2xl roboto-serif-light">
                   {project.title}{" "}
                 </span>
-                <span className="text-[#646464] text-2xl roboto-serif-medium">
+                <span className="text-[#646464] text-2xl roboto-serif-light">
                   {project.location}
                 </span>
                 <p className="pt-5">{project.description}</p>

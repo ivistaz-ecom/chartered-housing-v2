@@ -25,8 +25,8 @@ const CharteredCarousel = () => {
       {/* Top Section */}
       <div>
         <h2 className="md:text-4xl text-2xl font-semibold flex flex-col items-center justify-center gap-2">
-          <span className="text-[#ED1C25] roboto-serif-medium">WHEN YOU </span>
-          <span className="text-[#646464] roboto-serif-medium text-4xl">
+          <span className="text-[#ED1C25] roboto-serif-light">WHEN YOU </span>
+          <span className="text-[#646464] roboto-serif-light lg:text-6xl text-4xl">
             CHOOSE CHARTERED...
           </span>
         </h2>
@@ -42,7 +42,7 @@ const CharteredCarousel = () => {
             exit={{ opacity: 0, x: -20 }}
             transition={{ duration: 0.5 }}
           >
-            <span className="text-[#646464] roboto-serif-italic text-3xl md:text-5xl">
+            <span className="text-[#646464] roboto-serif-italic text-2xl md:text-4xl">
               {carouselItems[index]}
             </span>
           </motion.p>

@@ -121,7 +121,7 @@ const propertyOptions = {
 export const SelectField = ({
   value,
   onChange,
-  fontSize = "text-xl",
+  fontSize = "lg:text-2xl text-xl",
   formType = "general", // "contact", "general", "partner"
   placeholder = "Purpose",
   className,

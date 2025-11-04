@@ -28,7 +28,7 @@ const VisionForm = () => {
         <form className="" onSubmit={handleSubmit} id={formId}>
           <div className="max-w-4xl mx-auto w-full flex flex-col items-center">
             <div className="border border-[#ED1C25] py-5 px-10 w-full mt-10 flex flex-col gap-8">
-              <h3 className="lg:text-3xl text-2xl text-[#646464] roboto-serif-medium text-center">
+              <h3 className="lg:text-2xl text-xl text-[#646464] roboto-serif-light text-center">
                 Let’s Bring Your Vision to Life
               </h3>
 

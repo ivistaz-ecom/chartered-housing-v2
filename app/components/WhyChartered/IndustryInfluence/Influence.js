@@ -13,7 +13,7 @@ const Influence = () => {
               height={1000}
               className="lg:w-[400px] lg:h-[400px] lg:px-0 px-5"
             />
-            <div className="flex flex-col gap-5 text-[#646464] lg:px-0 px-5">
+            <div className="flex flex-col gap-5 text-[#646464] lg:px-0 px-5 text-lg">
               <h6>
                 <span className="font-bold">Mr. Aerya Balakrishna Hegde</span>{" "}
                 has played a significant role in shaping the real estate sector
@@ -49,7 +49,7 @@ const Influence = () => {
                 streamlining and accelerating regulatory clearances for
                 developers across the state.
               </h6>
-              <h6>
+              <h6 className="lg:mb-7">
                 He further expanded CREDAI’s reach by inducting new city
                 associations in Hubli & Dharwad, Mysore, Mangalore, and
                 Udupi, bringing regional representation to the fore for the first
@@ -66,7 +66,7 @@ const Influence = () => {
               height={1000}
               className="lg:w-[400px] lg:h-[400px] lg:px-0 px-5"
             />
-            <div className="flex flex-col gap-5 text-[#646464] lg:px-0 px-5">
+            <div className="flex flex-col gap-5 text-[#646464] lg:px-0 px-5 text-lg">
               <h6>
                 Our Managing Director,{" "}
                 <span className="font-bold">Mr. A. Bimal Hegde,</span> currently

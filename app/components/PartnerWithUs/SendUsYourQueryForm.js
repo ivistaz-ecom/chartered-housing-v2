@@ -25,7 +25,7 @@ const SendUsYourQueryForm = () => {
   return (
     <form onSubmit={handleSubmit} className="lg:mt-0 mt-5" formt>
       <div className="w-full lg:w-[777px] border border-[#ED1C25] px-5 lg:px-10 py-5 flex flex-col gap-8">
-        <h3 className="text-3xl text-[#646464] roboto-serif-regular text-center">
+        <h3 className="lg:text-2xl text-xl text-[#646464] roboto-serif-regular text-center">
           Send us your query
         </h3>
 
@@ -128,7 +128,7 @@ const SendUsYourQueryForm = () => {
           </Button>
         </div>
 
-        <h6 className="text-[#646464] lg:text-xl text-center">
+        <h6 className="text-[#646464] text-lg text-center">
           By continuing, you agree to our{" "}
           <Link
             target="_blank"

@@ -15,14 +15,14 @@ const AboutChartered = () => {
               height={1000}
             />
           </div>
-            <div className="flex flex-col gap-5 items-start justify-center lg:w-1/2 w-full">
+            <div className="flex flex-col lg:gap-5 gap-2 items-start justify-center lg:w-1/2 w-full">
               <h1 className="lg:text-2xl text-xl font-light text-[#646464] uppercase">
-                ABOUT CHARTERED INTERIORS
+                ABOUT CHARTERED INTERIORS 
               </h1>
-              <h4 className="lg:text-4xl text-3xl roboto-serif-light text-[#ED1C25]">
+              <h4 className="lg:text-4xl text-2xl roboto-serif-light text-[#ED1C25]">
                 Thoughtful Interiors, <br className="hidden lg:block"/> Seamlessly Delivered
               </h4>
-              <p className="pt-5 lg:pt-0">
+              <p className="pt-0">
                 With over a decade of experience in design and real estate,
                 Chartered Interiors offers a detail-oriented, transparent
                 approach to interiors. From spatial planning to the finishing

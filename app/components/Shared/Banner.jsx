@@ -20,6 +20,9 @@ const Banner = ({
   showDivide = true,
   useVideo = false,
   logo = null,
+  logoWidth = 200,
+  logoHeight = 200,
+  logoClassName = "",
 }) => {
   const [videoFailed, setVideoFailed] = useState(false);
   const [isIOS, setIsIOS] = useState(false);
@@ -116,32 +119,44 @@ const Banner = ({
 
       {/* Text Overlay */}
       <div className={`${getTextPositionClasses()} text-white z-10 px-4`}>
-        <div className="flex justify-start mb-4 items-center">
-        {logo && <Image src={logo} alt="Logo" width={120} height={120} className="mb-3"/>}  
+        <div className="flex justify-start items-center  mb-4">
+          {logo && (
+            <Image
+              src={logo}
+              alt="Logo"
+              width={logoWidth}
+              height={logoHeight}
+              className={logoClassName}
+            />
+          )}
           <span className="font-medium uppercase tracking-wider mr-4 lg:text-[16px] text-[15px]">
             {sectionTitle}
           </span>
           {showDivide && <div className="w-8 h-1 bg-red-500"></div>}
         </div>
         <h2 className="text-xl lg:text-[24px] font-semibold mb-2">{title}</h2>
-       
 
-        <div className="flex lg:flex-row flex-col justify-between lg:items-center lg:gap-48 gap-0">
+        <div className="flex flex-col lg:flex-row lg:items-center">
           <h6 className="text-2xl lg:text-[36px] font-bold">
-            {subtitle}{" "} <br/>
+            {subtitle} <br />
             {subtitle2 && (
               <span className="text-2xl lg:text-[36px] font-bold">
                 {subtitle2}
               </span>
             )}
-          </h6>{" "}
-          <br />
-          <div className="text-left">
-            <h5 className="text-md">{reraNumber}</h5>
-          </div>
+          </h6>
         </div>
+
         {/* {subtitle2 && <span className="text-3xl lg:text-5xl font-bold">{subtitle2}</span>} */}
       </div>
+
+      {/* RERA Number - Bottom Right */}
+      {reraNumber && (
+        <div className="absolute lg:bottom-44 bottom-16 lg:right-20 left-5 lg:left-0 text-white z-10 text-right">
+          <h5 className="text-sm lg:text-base">{reraNumber}</h5>
+        </div>
+      )}
+
       {/* Contact Options - Fixed at bottom */}
       <div className="bottom-[5%] left-1/2 -translate-x-1/2 z-20 bg-white p-3 shadow-2xl floating-button fixed">
         <nav className="flex lg:space-x-5 space-x-1">

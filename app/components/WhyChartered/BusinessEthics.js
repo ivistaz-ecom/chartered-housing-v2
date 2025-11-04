@@ -29,10 +29,10 @@ const BusinessEthics = () => {
 
       {/* Content */}
       <div className="relative z-10 mx-auto px-4 lg:py-16 py-10 text-center text-white">
-        <h2 className="text-3xl md:text-5xl font-bold uppercase roboto-serif-regular lg:leading-16">
+        <h2 className="text-3xl md:text-6xl font-bold uppercase roboto-serif-light lg:leading-16">
           Business Ethics & Stringent <br className="lg:block hidden"/> Value Based Practices
         </h2>
-        <h4 className="mt-5 lg:max-w-2xl mx-auto text-md md:text-xl">
+        <h4 className="mt-5 lg:max-w-2xl mx-auto text-md md:text-2xl">
           Our business is conducted with highest ethical values and other
           stringent value based business practices solely aimed at benefitting
           our clients. Some such practices are;

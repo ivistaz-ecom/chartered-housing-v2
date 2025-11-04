@@ -18,10 +18,10 @@ const ProjectDetails = () => {
         className="object-cover object-center -z-10 lg:hidden"
       />
       <div className="relative max-w-7xl mx-auto lg:py-40 py-10 lg:px-0 px-5">
-        <h3 className="lg:text-[40px] text-[30px] text-[#ffff] roboto-serif-medium text-center">
+        <h3 className="lg:text-4xl text-2xl text-[#ffff] roboto-serif-regular text-center">
           Project Overview
         </h3>
-        <div className="mt-10 border border-[#ED1C25] lg:p-10 p-5 bg-white">
+        <div className="mt-5 border border-[#ED1C25] lg:p-10 p-5 bg-white">
           <div className="grid lg:grid-cols-5 grid-cols-2">
             {chBirdsongProjectDetails.map((item, i) => (
               <div

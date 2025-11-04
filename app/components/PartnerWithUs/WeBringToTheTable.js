@@ -21,7 +21,7 @@ const WeBringToTheTable = () => {
           />
         </div>
         <div className="lg:w-1/2 w-full">
-          <h2 className="text-[#ED1C25] lg:text-4xl text-3xl roboto-serif-regular py-7 lg:py-0">
+          <h2 className="text-[#ED1C25] lg:text-4xl text-2xl roboto-serif-light py-7 lg:py-0">
             We Bring To The Table
           </h2>
           <ul className="flex flex-col gap-5 w-full lg:mt-10">
@@ -37,7 +37,7 @@ const WeBringToTheTable = () => {
         </div>
       </div>
       <div className="max-w-7xl mx-auto text-lg space-y-7 lg:mt-16 mt-7">
-        <h2 className="lg:text-4xl text-3xl lg:text-center roboto-serif-regular text-[#ED1C25]">
+        <h2 className="lg:text-4xl text-2xl lg:text-center roboto-serif-light text-[#ED1C25]">
           Joint Development Expertise
         </h2>
         <p>

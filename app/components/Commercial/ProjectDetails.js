@@ -6,9 +6,9 @@ const achievements = [
     title: "Configuration",
     desc: (
       <>
-       Basement, 
-       <br />
-       Ground Floor & <br /> 3 Upper Floors
+        Basement,
+        <br />
+        Ground Floor & <br /> 3 Upper Floors
       </>
     ),
   },
@@ -35,9 +35,10 @@ const achievements = [
     ),
     desc: (
       <>
-          <span className="lg:pr-0 flex justify-center">
+        <span className="lg:pr-0 flex justify-center">
           Approx. <br />
-          7,400 sq. ft. </span>
+          7,400 sq. ft.{" "}
+        </span>
       </>
     ),
   },
@@ -67,7 +68,7 @@ const ProjectDetails = () => {
     <section className="bg-white text-black lg:pb-0  lg:px-0 px-5 pt-5 lg:pt-0">
       {/* Heading */}
       <div className="container mx-auto">
-        <h3 className="text-[#ED1C24] roboto-serif-medium mb-5 tracking-wide text-3xl text-center">
+        <h3 className="text-[#ED1C24] roboto-serif-light mb-5 tracking-wide text-xl text-center">
           Project Details
         </h3>
 
@@ -83,7 +84,7 @@ const ProjectDetails = () => {
               <h3 className="text-[#ED1C25] font-bold mb-3 lg:text-2xl text-2xl">
                 {item.title}
               </h3>
-              <h5 className="lg:text-xl text-xl font-medium text-[#646464] lg:pt-5 text-center">
+              <h5 className="lg:text-lg text-lg font-medium text-[#646464] lg:pt-5 text-center">
                 {item.desc}
               </h5>
             </div>

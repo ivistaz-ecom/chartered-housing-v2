@@ -27,13 +27,13 @@ const FormBirdSong = () => {
   return (
     <div className="mb-10 lg:px-0 px-5 lg:mt-0 mt-5">
       <div className="max-w-7xl mx-auto">
-      <h3 className="roboto-serif-light text-center lg:text-center text-[#ED1C24] lg:text-[40px] text-[25px] lg:pb-10 pb-5">
+      <h3 className="roboto-serif-light text-center lg:text-center text-[#ED1C24] lg:text-4xl text-2xl lg:pb-10 pb-5">
       Interested in Chartered Birdsong?
         </h3>
         <form className="" onSubmit={handleSubmit} id={formId}>
           <div className="max-w-4xl mx-auto w-full flex flex-col items-center">
             <div className="border border-[#ED1C25] py-5 px-10 w-full flex flex-col gap-8">
-              <h3 className="lg:text-3xl text-2xl text-[#646464] text-center">
+              <h3 className="lg:text-2xl text-xl text-[#646464] text-center">
                 We’d Love to Hear From You
               </h3>
 
@@ -121,7 +121,7 @@ const FormBirdSong = () => {
                     : "Request a Callback"}
                 </Button>
               </div>
-              <h6 className="text-[#646464] lg:text-xl text-center">
+              <h6 className="text-[#646464] lg:text-lg text-center">
                 By continuing, you agree to our{" "}
                 <Link
                   target="_blank"

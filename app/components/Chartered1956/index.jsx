@@ -16,8 +16,10 @@ const Chartered1956 = () => {
         backgroundImage="/chartered-1956/banner.png"
         mobileBackgroundImage="/chartered-1956/mobile-banner.png"
         logo="/chartered-1956/1956-logo-white.svg"
+        logoWidth={500}
         // sectionTitle="CHARTERED 1956"
         showDivide={false}
+        logoClassName="mb-3 w-32 h-auto lg:w-52 lg:h-auto"
         title="A timeless residence where"
         subtitle="royal heritage meets refined "
         subtitle2="modern living"

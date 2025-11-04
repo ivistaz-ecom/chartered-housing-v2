@@ -89,19 +89,19 @@ const MoreThanRealEstate = () => {
     <div className="w-full px-6 py-10 md:py-24 bg-white">
       {/* Heading */}
       <div className="max-w-7xl mx-auto">
-        <h3 className="text-[#ED1C24] roboto-serif-light tracking-wide text-2xl">
+        <h3 className="text-[#ED1C24] roboto-serif-light tracking-wide text-2xl lg:text-4xl">
           MORE THAN
         </h3>
-        <h2 className="text-4xl pt-1 md:text-6xl font-bold text-[#646464] roboto-serif-regular">
+        <h2 className="text-4xl pt-1 md:text-6xl font-bold text-[#646464] roboto-serif-light">
           JUST REAL ESTATE
         </h2>
-        <div className="w-32 h-1 bg-[#ED1C24] my-4"></div>
+        <div className="lg:w-56 w-32 border-b-2 border-[#ED1C24] my-4"></div>
       </div>
 
       {/* Infinite Carousel */}
       <div className="lg:mt-12 flex md:gap-10 lg:gap-28 flex-col lg:flex-row justify-center md:justify-end max-w-7xl mx-auto">
         <div className="lg:w-[40%]">
-          <h5 className="text-[#646464] lg:text-3xl text-2xl max-w-5xl pt-5">
+          <h5 className="text-[#646464] lg:text-2xl text-xl max-w-5xl lg:pt-5">
             Chartered today  delivers <br /> a  diverse portfolio, including:
           </h5>
         </div>

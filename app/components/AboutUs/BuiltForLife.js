@@ -8,7 +8,7 @@ const BuiltForLife = () => {
         <div className="container mx-auto lg:py-10 py-5">
           <div className="flex items-center justify-center gap-7 lg:flex-row flex-col-reverse">
             <div className="flex flex-col gap-7 lg:w-1/2 w-full">
-              <h2 className="text-[#646464] lg:text-[30px] text-2xl">
+              <h2 className="text-[#646464] lg:text-[24px] text-[20px]">
                 Built for Life, Designed for Distinction the Difference You
                 Feel, Not Just See.
               </h2>

@@ -32,7 +32,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="w-full flex flex-col items-center md:pt-20 md:pb-26 pt-16 pb-20 px-4 md:px-0">
+    <div className="w-full flex flex-col items-center md:pt-20 md:pb-26 lg:pt-16 lg:pb-28 pt-10 pb-10 px-4 md:px-0">
       <div className="relative w-full max-w-5xl flex flex-col items-center">
         {/* Outer container for arrows + image */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6 w-full px-2 md:px-0">

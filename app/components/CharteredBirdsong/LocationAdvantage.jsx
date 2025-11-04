@@ -7,11 +7,11 @@ export default function LocationAdvantage() {
     <section className="md:py-16 py-0 pt-8 lg:px-0 px-5">
       <div className="max-w-6xl py-10 px-5 md:px-0 mx-auto text-center bg-[#DBDBDB4D]">
         {/* Title */}
-        <h3 className="roboto-serif-light text-center lg:text-center text-[#ED1C24] lg:text-[40px] text-[25px]">
+        <h3 className="roboto-serif-light text-center lg:text-center text-[#ED1C24] lg:text-4xl text-2xl">
           Location Advantage
         </h3>
         
-        <div className="w-3/4 md:w-3/4 mx-auto border-t border-[#ED1C24] mb-10"></div>
+        <div className="w-3/4 md:w-3/4 mx-auto border-t border-[#ED1C24] lg:mb-10 mb-5 mt-3"></div>
 
         {/* Points */}
         <div className="space-y-6 text-gray-700">

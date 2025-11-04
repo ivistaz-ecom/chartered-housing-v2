@@ -6,10 +6,10 @@ const FavoriteProjects = () => {
   return (
     <div className="container mx-auto px-5 lg:px-0 lg:pb-0">
       <div className="flex flex-col justify-start items-start text-left gap-2.5 lg:hidden py-5">
-        <p className="text-gray-500 text-sm mt-2 tracking-wider">
+        <p className="text-[#646464] text-2xl mt-2 tracking-wider">
           PORTFOLIO HIGHLIGHTS
         </p>
-        <h2 className="text-red-600 text-3xl font-semibold roboto-serif-medium">
+        <h2 className="text-[#ED1C25] lg:text-4xl text-2xl font-semibold roboto-serif-light">
           A Few of Our <br /> Favorite Projects
         </h2>
       </div>
@@ -17,7 +17,7 @@ const FavoriteProjects = () => {
         {/* Left large image spanning 2 rows on desktop only */}
         <div className="md:row-span-2 relative col-span-1 md:col-span-1">
           <Image
-            src="/chartered-interiors/img-1.png"
+            src="/chartered-interiors/interiors/img-1.png"
             alt="Left Large Project"
             width={600}
             height={800}
@@ -27,10 +27,10 @@ const FavoriteProjects = () => {
 
         {/* Center text - top (desktop only) */}
         <div className="lg:flex flex-col justify-center items-center text-center px-4 hidden md:block">
-          <p className="text-gray-500 text-sm mt-2 tracking-wider ">
+          <h6 className="text-[#646464] text-2xl my-2 tracking-wider ">
             PORTFOLIO HIGHLIGHTS
-          </p>
-          <h2 className="text-red-600 text-xl md:text-2xl font-semibold roboto-serif-medium">
+          </h6> 
+          <h2 className="text-[#ED1C25] text-xl md:text-4xl font-semibold roboto-serif-light">
             A Few of Our <br /> Favorite Projects
           </h2>
         </div>
@@ -38,7 +38,7 @@ const FavoriteProjects = () => {
         {/* Top right image */}
         <div className="relative">
           <Image
-            src="/chartered-interiors/img-4.png"
+            src="/chartered-interiors/interiors/img-5.png"
             alt="Top Right Project"
             width={500}
             height={500}
@@ -49,7 +49,7 @@ const FavoriteProjects = () => {
         {/* Center middle image */}
         <div className="relative">
           <Image
-            src="/chartered-interiors/img-2.png"
+            src="/chartered-interiors/interiors/img-3.png"
             alt="Middle Center Project"
             width={500}
             height={500}
@@ -58,9 +58,9 @@ const FavoriteProjects = () => {
         </div>
 
         {/* Right large image spanning 2 rows on desktop only */}
-        <div className="md:row-span-2 relative hidden md:block">
+        <div className="md:row-span-2 relative">
           <Image
-            src="/chartered-interiors/img-3.png"
+            src="/chartered-interiors/interiors/img-6.png"
             alt="Right Large Project"
             width={500}
             height={800}
@@ -71,7 +71,7 @@ const FavoriteProjects = () => {
         {/* Bottom left image */}
         <div className="relative">
           <Image
-            src="/chartered-interiors/img-6.png"
+            src="/chartered-interiors/interiors/img-2.png"
             alt="Bottom Left Project"
             width={500}
             height={500}
@@ -82,7 +82,7 @@ const FavoriteProjects = () => {
         {/* Bottom center image */}
         <div className="relative">
           <Image
-            src="/chartered-interiors/img-5.png"
+            src="/chartered-interiors/interiors/img-4.png"
             alt="Bottom Center Project"
             width={500}
             height={500}

@@ -27,7 +27,7 @@ const ApplyForm = () => {
   return (
     <form onSubmit={handleSubmit} className="lg:mt-0 pt-10 pb-20 lg:px-0 px-5">
       <div className="max-w-4xl mx-auto w-full border border-[#ED1C25] px-5 lg:px-10 py-5 flex flex-col gap-8">
-        <h3 className="text-3xl text-[#646464] text-center">
+        <h3 className="text-2xl text-[#646464] text-center">
           Apply Now
         </h3>
 

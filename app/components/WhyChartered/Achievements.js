@@ -25,16 +25,16 @@ const Achievements = () => {
     <section className="bg-black text-white lg:py-20 py-10 lg:px-0 px-5">
       {/* Heading */}
       <div className="container mx-auto">
-        <h3 className="text-[#ED1C24] roboto-serif-medium tracking-wide text-2xl uppercase">
+        <h3 className="text-[#ED1C24] roboto-serif-light tracking-wide lg:text-4xl text-2xl uppercase">
           SOME OF OUR
         </h3>
-        <h2 className="text-4xl pt-4 md:text-6xl font-bold text-[#fff] roboto-serif-regular uppercase">
+        <h2 className="text-4xl pt-4 md:text-6xl font-bold text-[#fff] roboto-serif-light uppercase">
           ACHIEVEMENTS
         </h2>
-        <div className="lg:w-64 w-40 h-1 bg-[#fff] my-4"></div>
+        <div className="lg:w-64 w-40 border-b-2 border-[#fff] my-4"></div>
 
         <div className="text-left lg:my-12 my-7">
-          <h6 className="max-w-2xl leading-relaxed">
+          <h6 className="max-w-2xl leading-relaxed text-lg">
             Our work and our customers’ delight have been our biggest
             inspiration. But when the journey spans 30 years, rewards are bound
             to come your way. Ours have come in many ways, such as the multiple
@@ -52,7 +52,7 @@ const Achievements = () => {
               <h3 className="text-[#ED1C25] font-semibold mb-3 lg:text-lg text-2xl">
                 {item.title}
               </h3>
-              <h5 className="lg:text-base text-xl">{item.desc}</h5>
+              <h5 className="lg:text-lg text-xl">{item.desc}</h5>
             </div>
           ))}
         </div>

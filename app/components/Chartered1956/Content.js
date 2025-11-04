@@ -5,8 +5,8 @@ const Content = () => {
     <>
       <div className="lg:px-0 px-5">
         <div className="container mx-auto lg:py-10 py-5">
-          <div className="flex flex-col items-center justify-start gap-7">
-            <h3 className="roboto-serif-light text-center lg:text-left text-[#ED1C24] lg:text-[36px] text-[24px]">
+          <div className="flex flex-col gap-7">
+            <h3 className="roboto-serif-light text-center text-[#ED1C24] lg:text-[36px] text-[24px]">
               Where Legacy Meets Luxury
             </h3>
             <h6 className="text-center lg:text-[18px] text-[18px] text-[#646464] lg:text-left">
@@ -23,7 +23,7 @@ const Content = () => {
               here contributes to something meaningful.
             </h6>
           </div>
-          <div className="flex flex-col items-center justify-center gap-7 pt-10">
+          <div className="flex flex-col gap-7 pt-10">
             <h3 className="text-center text-[#646464] lg:text-[36px] text-[24px] font-semibold">
               THE &apos;1956&apos; STORY
             </h3>

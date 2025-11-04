@@ -4,9 +4,9 @@ const Content = () => {
   return (
     <>
       <div className="lg:px-0 px-5">
-        <div className="container mx-auto lg:py-20 py-5">
+        <div className="container mx-auto lg:py-10 py-5">
           <div className="flex flex-col items-center justify-center">
-            <h6 className="lg:text-[30px] text-[20px] text-[#646464] text-left">
+            <h6 className="lg:text-2xl text-[20px] text-[#646464] text-left">
               In the last 3 decades, we’ve built the best apartments in
               Bangalore. It’s the same with luxury villas as well. All our
               completed projects have earned us the reputation of being a

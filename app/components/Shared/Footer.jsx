@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa6";
 
 
 const Footer = () => {
@@ -64,6 +64,14 @@ const Footer = () => {
               <a target='_blank' href="https://www.facebook.com/CharteredHousing/" className='w-10 h-10 bg-[#646464] rounded-full p-2 flex items-center justify-center hover:bg-gray-700 transition-colors'>
                 {/* LinkedIn Icon */}
                 <FaFacebookF size={25}/>
+              </a>
+              <a target='_blank' href="https://in.linkedin.com/company/chartered-housing-private-limited" className='w-10 h-10 bg-[#646464] rounded-full p-2 flex items-center justify-center hover:bg-gray-700 transition-colors'>
+                {/* LinkedIn Icon */}
+                <FaLinkedinIn size={25}/>
+              </a>
+              <a target='_blank' href="https://www.youtube.com/@charteredhousing" className='w-10 h-10 bg-[#646464] rounded-full p-2 flex items-center justify-center hover:bg-gray-700 transition-colors'>
+                {/* Youtube Icon */}
+                <FaYoutube size={25}/>
               </a>
             </div>
           </div>

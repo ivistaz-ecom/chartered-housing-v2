@@ -15,7 +15,10 @@ const CharteredBirdsong = () => {
       <Banner
         backgroundImage="/chartered-birdsong/banner.png"
         mobileBackgroundImage="/chartered-birdsong/mobile-banner.png"
-        sectionTitle="Chartered Birdsong"
+        // sectionTitle="Chartered Birdsong"
+        showDivide={false}
+        logo="/chartered-birdsong/logo.svg"
+        logoWidth={400}
         title="Space to dream. Freedom to build."
         subtitle=" Discover plotted living crafted "
         subtitle2="for future-forward families."

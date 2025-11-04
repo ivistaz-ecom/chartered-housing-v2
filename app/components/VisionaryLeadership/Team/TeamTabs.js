@@ -60,7 +60,7 @@ const TeamTabs = () => {
                 height={500}
                 className="rounded-md object-contain mb-6 -mt-[300px]"
               />
-              <h3 className="text-[#ED1C25] lg:text-3xl text-2xl mb-3 font-semibold">
+              <h3 className="text-[#ED1C25] lg:text-4xl text-2xl mb-3 font-semibold">
                 {active.name}
               </h3>
               <h5 className="text-lg text-[#646464] mb-5 uppercase">

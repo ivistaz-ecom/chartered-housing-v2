@@ -70,7 +70,7 @@ const AboutChartered = () => {
           <div className="flex flex-col flex-1 gap-5 items-end justify-between lg:w-[45%] w-full">
             {/* Top Content */}
             <div>
-              <h4 className="lg:text-4xl text-3xl roboto-serif-light text-[#ED1C25]">
+              <h4 className="lg:text-4xl text-2xl roboto-serif-light text-[#ED1C25]">
                 Space Planning With Soul
               </h4>
               <p className="pt-5">
