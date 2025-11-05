@@ -94,12 +94,12 @@ export const chBirdsongProjectDetails = [
   {
     icon: "/chartered-birdsong/img9.svg",
     title:
-      '<span class="text-[#ED1C25]">Underground rainwater </span> and<br /> sewerage systems',
+      '<span class="text-[#ED1C25]">Underground rainwater </span> and sewerage systems',
   },
   {
     icon: "/chartered-birdsong/img10.svg",
     title:
-      'Individual plot provision for  <br /> <span class="text-[#ED1C25]">electric and water connections</span>',
+      'Individual plot provision for  <span class="text-[#ED1C25]">electric and water connections</span>',
   },
   {
     icon: "/chartered-birdsong/img11.svg",

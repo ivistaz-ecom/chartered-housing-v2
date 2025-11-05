@@ -38,7 +38,7 @@ const Carousel = () => {
 
     return (
         <div className="w-full flex flex-col items-center md:pt-20 md:pb-26 lg:pt-16 lg:pb-28 pt-10 pb-10 px-4 md:px-0">
-            <div className="relative w-full max-w-5xl flex flex-col items-center">
+            <div className="relative w-full max-w-7xl flex flex-col items-center">
                 {/* Outer container for arrows + image */}
                 <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6 w-full px-2 md:px-0">
                     {/* Desktop Left Arrow - Hidden on mobile */}
@@ -93,7 +93,7 @@ const Carousel = () => {
                         <div
                             key={thumbnail.index}
                             onClick={() => setCurrentIndex(thumbnail.index)}
-                            className="w-24 sm:w-32 md:w-46 h-16 sm:h-24 md:h-32 flex-shrink-0 cursor-pointer border-2 border-transparent hover:border-blue-400 transition"
+                            className="w-24 sm:w-32 md:w-60 h-16 sm:h-24 md:h-40 flex-shrink-0 cursor-pointer border-2 border-transparent hover:border-blue-400 transition"
                         >
                             <img
                                 src={thumbnail.src}

@@ -161,12 +161,12 @@ const Banner = ({
       <div className="bottom-[5%] left-1/2 -translate-x-1/2 z-20 bg-white p-3 shadow-2xl floating-button fixed">
         <nav className="flex lg:space-x-5 space-x-1">
           <a
-            href="tel:+919591596777"
+            href="tel:+91 99005 92342"
             className="flex items-center gap-2 lg:text-xl text-sm roboto-serif-light hover:bg-red-500 p-1.5 hover:text-white transition-all duration-300 cursor-pointer"
           >
             <span className="flex items-center gap-2 lg:text-[16px] text-sm roboto-serif-light hover:bg-red-500 p-1.5 hover:text-white transition-all duration-300">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="http://www.w3.org/2000/svg"  
                 // width="25"
                 // height="25"
                 viewBox="0 0 20 21"
@@ -182,7 +182,7 @@ const Banner = ({
             </span>
           </a>
           <a
-            href="https://wa.me/919591596777?text=Hi%2C%20I%27m%20interested%20in%20learning%20more%20about%20Chartered%20Housing%20projects."
+            href="https://wa.me/+919900592343?text=Hi%2C%20I%27m%20interested%20in%20learning%20more%20about%20Chartered%20Housing%20projects."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 lg:text-xl text-sm roboto-serif-light hover:bg-red-500 p-1.5 hover:text-white transition-all duration-300 cursor-pointer"

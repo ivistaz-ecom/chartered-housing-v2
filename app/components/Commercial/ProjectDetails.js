@@ -1,8 +1,10 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 
 const achievements = [
   {
+    icon: "/commercial/icon-1.svg",
     title: "Configuration",
     desc: (
       <>
@@ -13,6 +15,7 @@ const achievements = [
     ),
   },
   {
+    icon: "/commercial/icon-2.svg",
     title: (
       <>
         <span className="lg:pr-0">Total Area</span>
@@ -28,6 +31,7 @@ const achievements = [
     ),
   },
   {
+    icon: "/commercial/icon-3.svg",
     title: (
       <>
         <span className="lg:pr-0">Floor Plate</span>
@@ -43,6 +47,7 @@ const achievements = [
     ),
   },
   {
+    icon: "/commercial/icon-4.svg",
     title: (
       <>
         <span className="lg:pr-0">Car Park Ratio</span>
@@ -58,6 +63,7 @@ const achievements = [
     ),
   },
   {
+    icon: "/commercial/icon-5.svg",
     title: "Occupancy Certificate (OC)",
     desc: "Obtained",
   },
@@ -81,6 +87,9 @@ const ProjectDetails = () => {
                 idx < 4 ? "lg:border-r lg:border-b-0 border-b lg:pb-0 pb-5" : ""
               } border-[#ED1C25] text-center`}
             >
+              <div className="flex justify-center pb-5 lg:pt-0 pt-5">
+              <Image src={item.icon} alt={item.title} width={50} height={50} />
+              </div>
               <h3 className="text-[#ED1C25] font-bold mb-3 lg:text-2xl text-2xl">
                 {item.title}
               </h3>

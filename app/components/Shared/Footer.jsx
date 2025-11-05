@@ -8,7 +8,7 @@ const Footer = () => {
       {/* Contact Information Section */}
       <div className='container mx-auto lg:px-0 px-5 py-8'>
         <div className='flex lg:flex-row flex-col lg:items-center gap-4 lg:text-4xl text-xl font-medium'>
-          <span  className='border-b lg:border-b-0 lg:pb-0 pb-5'>Reach Us: <a href="tel:08031021400" className='text-white'>080-31021400</a></span>
+          <span  className='border-b lg:border-b-0 lg:pb-0 pb-5'>Reach Us: <a href="tel:+91 99005 92342" className='text-white'>+91 99005 92342</a></span>
           <div className='w-px h-6 bg-white lg:block hidden'></div>
           <span>Email: <a href="mailto:sales@charteredhousing.com" className='text-white'>sales@charteredhousing.com</a></span>
         </div>
