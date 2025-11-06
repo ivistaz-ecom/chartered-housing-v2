@@ -9,8 +9,8 @@ const ContactUs = () => {
   return (
     <div>
       <Banner
-        backgroundImage="/contact-us/banner.png"
-        mobileBackgroundImage="/contact-us/mobile-banner.png"
+        backgroundImage="/contact-us/banner.webp"
+        mobileBackgroundImage="/contact-us/mobile-banner.webp"
         sectionTitle="CONTACT US"
         title="Looking for your next home or a meaningful collaboration?"
         subtitle="Let us know how we can assist you today."

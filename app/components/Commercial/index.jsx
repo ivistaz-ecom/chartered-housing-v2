@@ -9,8 +9,8 @@ const Commercial = () => {
   return (
     <div>
       <Banner
-        backgroundImage="/commercial/banner.png"
-        mobileBackgroundImage="/commercial/mobile-banner.png"
+        backgroundImage="/commercial/banner.webp"
+        mobileBackgroundImage="/commercial/mobile-banner.webp"
         sectionTitle="Commercial Projects"
         title="The Crossroads of"
         subtitle="Access and Opportunity"

@@ -10,8 +10,8 @@ const index = () => {
   return (
     <>
       <Banner
-        backgroundImage="/chartered-interiors/banner.png"
-        mobileBackgroundImage="/chartered-interiors/mobile-banner.png"
+        backgroundImage="/chartered-interiors/banner.webp"
+        mobileBackgroundImage="/chartered-interiors/mobile-banner.webp"
         logoWidth={70}
         logoHeight={70}
         showLogo={true}

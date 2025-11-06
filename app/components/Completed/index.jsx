@@ -10,8 +10,8 @@ const index = () => {
   return (
     <>
       <Banner
-        backgroundImage="/completed-project/banner.png"
-        mobileBackgroundImage="/completed-project/mobile-banner.png"
+        backgroundImage="/completed-project/banner.webp"
+        mobileBackgroundImage="/completed-project/mobile-banner.webp"
         sectionTitle="COMPLETED PROJECTS"
         title="Remembered for generations."
         subtitle="Every project we complete is a testament to a promise fulfilled."

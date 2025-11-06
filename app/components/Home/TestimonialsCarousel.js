@@ -7,28 +7,28 @@ import Image from "next/image";
 const testimonials = [
   {
     id: 1,
-    image: "/home/hemanth-01.png",
+    image: "/home/hemanth-01.webp",
     text: "Chartered has always been our go-to brand when it comes to quality living. Their personalized service, transparency in the purchase, backed by after-sales support with no hassles makes it very easy for us to decide on our property investment. A relationship that transcends generations is what we appreciate the most.We choose Chartered to live in now and always.",
     name: "Mr. Hemanth Manay",
     role: "CEO, S.R. Gopal Rao Opticians & Optometrists",
   },
   {
     id: 2,
-    image: "/home/shankar-01.png",
+    image: "/home/shankar-01.webp",
     text: "Anjali and I are happy members of the Chartered Housing family. We bought not just one plot for our friend but two plots in the Chartered Windsong for ourselves. It is the perfect place away from the hustle bustle of city-centre living, amidst peace and tranquility. True to the reputation of Chartered Group, we had a hassle free experience. They truly live up to their tagline, QUALITY through TRANSPARENCY.",
     name: "Mr. Shankar Sastri",
     role: "Joint Managing Director, Sterling Developers Pvt. Ltd.",
   },
   {
     id: 3,
-    image: "/home/srini.png",
+    image: "/home/srini.webp",
     text: "Chartered Grasshopper is my second Home from Chartered, the first one being Chartered Coronet. In my experience Chartered stands for Quality, Transparency & Value for Money. Their projects are unique, functional & built with the customer in mind. Their staff are friendly and easy to deal with. Most importantly Chartered projects end delivered on time.",
     name: "Mr. Srinivasu Allapan",
     role: " Director – Sales & Marketing, JK Tyre & Industries Ltd.",
   },
   {
     id: 4,
-    image: "/home/jagdeesh.png",
+    image: "/home/jagdeesh.webp",
     text: "I’ve owned & lived in a Chartered Apartment for close to 20 years. The apartment is thoughtfully designed, well-constructed and has generated great long term value! I have also enjoyed dealing with the promoters and staff of Chartered, who have always been professional, competent and straightforward.",
     name: "Mr. Jagdeesh Reddy",
     role: "Owner of Transport Business",

@@ -17,20 +17,20 @@ const BusinessEthicsMobile = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/why-chartered/business-ethics.png"
+          src="/why-chartered/business-ethics.webp"
           alt="Business Ethics Background"
           fill
           className="z-0 lg:block hidden object-cover"
           priority
         />
         <Image
-          src="/why-chartered/business-ethics-mobile.png"
+          src="/why-chartered/business-ethics-mobile.webp"
           alt="Business Ethics Background"
           fill
           className="z-0 lg:hidden block object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/50 z-0"></div>
+        <div className="absolute inset-0  z-0"></div>
       </div>
 
       {/* Content */}

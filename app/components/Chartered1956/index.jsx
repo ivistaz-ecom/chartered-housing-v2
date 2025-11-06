@@ -13,8 +13,8 @@ const Chartered1956 = () => {
   return (
     <div>
       <Banner
-        backgroundImage="/chartered-1956/banner.png"
-        mobileBackgroundImage="/chartered-1956/mobile-banner.png"
+        backgroundImage="/chartered-1956/banner.webp"
+        mobileBackgroundImage="/chartered-1956/mobile-banner.webp"
         logo="/chartered-1956/1956-logo-white.svg"
         logoWidth={500}
         // sectionTitle="CHARTERED 1956"

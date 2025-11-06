@@ -9,7 +9,7 @@ const ProjectOverview = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/chartered-1956/project-overview.png" // replace with your bg image path
+          src="/chartered-1956/project-overview.webp" // replace with your bg image path
           alt="Business Ethics Background"
           layout="fill"
           objectFit="cover"
@@ -17,7 +17,7 @@ const ProjectOverview = () => {
           className="z-0 lg:block hidden"
         />
         <Image
-          src="/chartered-1956/project-overview-mobile.png" // replace with your bg image path
+          src="/chartered-1956/project-overview-mobile.webp" // replace with your bg image path
           alt="Business Ethics Background"
           layout="fill"
           objectFit="cover"

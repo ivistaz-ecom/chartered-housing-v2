@@ -86,9 +86,9 @@ const Footer = () => {
               © 2025 Chartered Housing. All rights reserved.
             </div>
             <div className='flex items-center gap-4 text-sm'>
-              <a href="#" className='hover:text-gray-200 transition-colors'>Terms of Use</a>
+              <a href="/disclaimer" className='hover:text-gray-200 transition-colors'>Disclaimer</a>
               <div className='w-px h-4 bg-white'></div>
-              <a href="#" className='hover:text-gray-200 transition-colors'>Privacy Policy</a>
+              <a href="/privacy-policy" className='hover:text-gray-200 transition-colors'>Privacy Policy</a>
             </div>
           </div>
         </div>

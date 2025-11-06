@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs";
 
 const images = [
-    "/chartered-1956/img1.png",
-    "/chartered-1956/img2.png",
-    "/chartered-1956/img3.png",
-    "/chartered-1956/img4.png",
-    "/chartered-1956/img5.jpg",
-    "/chartered-1956/img6.jpg",
-    "/chartered-1956/img7.jpg",
+    "/chartered-1956/img1.webp",
+    "/chartered-1956/img2.webp",
+    "/chartered-1956/img3.webp",
+    "/chartered-1956/img4.webp",
+    "/chartered-1956/img5.webp",
+    "/chartered-1956/img6.webp",
+    "/chartered-1956/img7.webp",
 ];
 
 
@@ -44,9 +44,9 @@ const Carousel = () => {
                     {/* Desktop Left Arrow - Hidden on mobile */}
                     <button
                         onClick={prevSlide}
-                        className="hidden md:flex bg-white/80 border border-[#D9D9D9] hover:bg-white rounded-full p-2"
+                        className="hidden md:flex bg-white/80 border border-[#646464] hover:bg-white rounded-full p-2"
                     >
-                        <BsChevronLeft size={28} className="text-[#D9D9D9] font-bold" />
+                        <BsChevronLeft size={28} className="text-[#646464] font-bold" />
                     </button>
 
                     {/* Main Image */}
@@ -65,24 +65,24 @@ const Carousel = () => {
                     {/* Desktop Right Arrow - Hidden on mobile */}
                     <button
                         onClick={nextSlide}
-                        className="hidden md:flex bg-white/80 border border-[#D9D9D9] hover:bg-white rounded-full p-2"
+                        className="hidden md:flex bg-white/80 border border-[#646464] hover:bg-white rounded-full p-2"
                     >
-                        <BsChevronRight size={28} className="text-[#D9D9D9] font-bold" />
+                        <BsChevronRight size={28} className="text-[#646464] font-bold" />
                     </button>
 
                     {/* Mobile Arrows - Below image, visible only on mobile */}
                     <div className="flex md:hidden items-center justify-center gap-4 mt-4">
                         <button
                             onClick={prevSlide}
-                            className="bg-white/80 border border-[#D9D9D9] hover:bg-white rounded-full p-2"
+                            className="bg-white/80 border border-[#646464] hover:bg-white rounded-full p-2"
                         >
-                            <BsChevronLeft size={24} className="pe-1 text-[#D9D9D9] font-bold" />
+                            <BsChevronLeft size={24} className="pe-1 text-[#646464] font-bold" />
                         </button>
                         <button
                             onClick={nextSlide}
-                            className="bg-white/80 border border-[#D9D9D9] hover:bg-white rounded-full p-2"
+                            className="bg-white/80 border border-[#646464] hover:bg-white rounded-full p-2"
                         >
-                            <BsChevronRight size={24} className="pl-1 text-[#D9D9D9] font-bold" />
+                            <BsChevronRight size={24} className="pl-1 text-[#646464] font-bold" />
                         </button>
                     </div>
                 </div>

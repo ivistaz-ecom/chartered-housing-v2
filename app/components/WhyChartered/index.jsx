@@ -12,8 +12,8 @@ const index = () => {
   return (
     <div>
       <Banner
-        backgroundImage="/why-chartered/banner.png"
-        mobileBackgroundImage="/why-chartered/mobile-banner.png"
+        backgroundImage="/why-chartered/banner.webp"
+        mobileBackgroundImage="/why-chartered/mobile-banner.webp"
         sectionTitle="WHY CHARTERED"
         title="Since 1989,"
         subtitle="Quality Through Transparency"

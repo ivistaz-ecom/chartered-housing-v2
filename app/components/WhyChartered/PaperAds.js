@@ -5,14 +5,14 @@ const PaperAds = () => {
     <>
       <div className="w-full h-full flex flex-col gap-5">
         <Image
-          src="/why-chartered/paper.png"
+          src="/why-chartered/paper.webp"
           alt="Paper Ads"
           width={1000}
           height={1000}
           className="w-full h-full object-cover hidden md:block"
         />
         <Image
-          src="/why-chartered/mobile-ads.png"
+          src="/why-chartered/mobile-ads.webp"
           alt="Paper Ads"
           width={1000}
           height={1000}

@@ -13,8 +13,8 @@ const CharteredBirdsong = () => {
   return (
     <div>
       <Banner
-        backgroundImage="/chartered-birdsong/banner.png"
-        mobileBackgroundImage="/chartered-birdsong/mobile-banner.png"
+        backgroundImage="/chartered-birdsong/banner.webp"
+        mobileBackgroundImage="/chartered-birdsong/mobile-banner.webp"
         // sectionTitle="Chartered Birdsong"
         showDivide={false}
         logo="/chartered-birdsong/logo.svg"

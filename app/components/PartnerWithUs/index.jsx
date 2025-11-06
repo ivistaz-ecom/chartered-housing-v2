@@ -9,8 +9,8 @@ const index = () => {
   return (
     <div>
       <Banner
-        backgroundImage="/partner-with-us/banner.png"
-        mobileBackgroundImage="/partner-with-us/mobile-banner.png"
+        backgroundImage="/partner-with-us/banner.webp"
+        mobileBackgroundImage="/partner-with-us/mobile-banner.webp"
         sectionTitle="PARTNER WITH US"
         title="Let’s Build"
         subtitle="Something Enduring Together"

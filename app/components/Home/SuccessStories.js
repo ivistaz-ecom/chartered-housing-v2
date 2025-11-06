@@ -17,7 +17,7 @@ const SuccessStories = () => {
             <div className="relative w-full pb-[56.25%] h-0 overflow-hidden">
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/A7aS5pIxSFM?autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&cc_load_policy=0&playsinline=1"
+                src="https://www.youtube-nocookie.com/embed/A7aS5pIxSFM?autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&cc_load_policy=0&playsinline=1"
                 title="At Home with Chartered Housing | Mr. Prabhu &amp; Family on Life at Chartered Grasshopper"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

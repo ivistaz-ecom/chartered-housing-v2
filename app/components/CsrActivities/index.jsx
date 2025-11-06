@@ -8,8 +8,8 @@ const CsrActivities = () => {
   return (
     <div>
       <Banner
-        backgroundImage="/csr/banner.png"
-        mobileBackgroundImage="/csr/mobile-banner.png"
+        backgroundImage="/csr/banner.webp"
+        mobileBackgroundImage="/csr/mobile-banner.webp"
         sectionTitle="Corporate Social Responsibility"
         // title=""
         subtitle="Building Better Lives"

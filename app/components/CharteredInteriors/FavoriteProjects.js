@@ -17,7 +17,7 @@ const FavoriteProjects = () => {
         {/* Left large image spanning 2 rows on desktop only */}
         <div className="md:row-span-2 relative col-span-1 md:col-span-1">
           <Image
-            src="/chartered-interiors/interiors/img-1.png"
+            src="/chartered-interiors/interiors/img-1.webp"
             alt="Left Large Project"
             width={600}
             height={800}
@@ -38,7 +38,7 @@ const FavoriteProjects = () => {
         {/* Top right image */}
         <div className="relative">
           <Image
-            src="/chartered-interiors/interiors/img-5.png"
+            src="/chartered-interiors/interiors/img-5.webp"
             alt="Top Right Project"
             width={500}
             height={500}
@@ -49,7 +49,7 @@ const FavoriteProjects = () => {
         {/* Center middle image */}
         <div className="relative">
           <Image
-            src="/chartered-interiors/interiors/img-3.png"
+            src="/chartered-interiors/interiors/img-3.webp"
             alt="Middle Center Project"
             width={500}
             height={500}
@@ -60,7 +60,7 @@ const FavoriteProjects = () => {
         {/* Right large image spanning 2 rows on desktop only */}
         <div className="md:row-span-2 relative">
           <Image
-            src="/chartered-interiors/interiors/img-6.png"
+            src="/chartered-interiors/interiors/img-6.webp"
             alt="Right Large Project"
             width={500}
             height={800}
@@ -71,7 +71,7 @@ const FavoriteProjects = () => {
         {/* Bottom left image */}
         <div className="relative">
           <Image
-            src="/chartered-interiors/interiors/img-2.png"
+            src="/chartered-interiors/interiors/img-2.webp"
             alt="Bottom Left Project"
             width={500}
             height={500}
@@ -82,7 +82,7 @@ const FavoriteProjects = () => {
         {/* Bottom center image */}
         <div className="relative">
           <Image
-            src="/chartered-interiors/interiors/img-4.png"
+            src="/chartered-interiors/interiors/img-4.webp"
             alt="Bottom Center Project"
             width={500}
             height={500}

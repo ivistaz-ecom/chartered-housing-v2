@@ -6,13 +6,13 @@ const ProjectDetails = () => {
   return (
     <div className="relative hidden lg:block">
       <Image
-        src="/chartered-1956/project-overview.png"
+        src="/chartered-1956/project-overview.webp"
         alt="Project Overview Background"
         fill
         className="object-cover object-center -z-10 lg:block hidden"
       />
       <Image
-        src="/chartered-1956/mobile-details.png"
+        src="/chartered-1956/mobile-details.webp"
         alt="Project Overview Background"
         fill
         className="object-cover object-center -z-10 lg:hidden"

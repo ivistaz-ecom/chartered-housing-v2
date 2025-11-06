@@ -7,8 +7,8 @@ const VisionaryLeadership = () => {
   return (
     <div>
       <Banner
-        backgroundImage="/visionary-leadership/banner.png"
-        mobileBackgroundImage="/visionary-leadership/mobile-banner.png"
+        backgroundImage="/visionary-leadership/banner.webp"
+        mobileBackgroundImage="/visionary-leadership/mobile-banner.webp"
         // logo="/logo.png"
         logoWidth={70}
         logoHeight={70}

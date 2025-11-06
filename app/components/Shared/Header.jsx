@@ -100,6 +100,7 @@ const Header = () => {
           <img
             src="/logo.svg"
             alt="CHARTERED"
+            fetchPriority="high"
             className={`cursor-pointer transition-all duration-500 ease-in-out ${
               isScrolled 
                 ? 'lg:w-14 lg:h-auto w-12 h-auto' 

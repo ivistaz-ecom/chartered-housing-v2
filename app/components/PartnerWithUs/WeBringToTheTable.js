@@ -13,7 +13,7 @@ const WeBringToTheTable = () => {
       <div className="max-w-7xl mx-auto flex lg:flex-row flex-col justify-center items-center">
         <div className="lg:w-1/2 w-full">
           <Image
-            src="/partner-with-us/we-bring-to-the-table.png"
+            src="/partner-with-us/we-bring-to-the-table.webp"
             width={600}
             height={575}
             alt="We bring to the table"

@@ -22,7 +22,7 @@ const ApplyForm = () => {
   } = useFormHandler(5856);
 
   // console.log("ApplyForm fieldErrors:", fieldErrors);
-  console.log("ApplyForm formData:", formData);
+  // console.log("ApplyForm formData:", formData);
 
   return (
     <form onSubmit={handleSubmit} className="lg:mt-0 pt-10 pb-20 lg:px-0 px-5">

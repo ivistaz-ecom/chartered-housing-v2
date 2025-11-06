@@ -9,7 +9,7 @@ const AboutChartered = () => {
           <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
           <div className="lg:w-1/2 w-full">
           <Image
-              src="/chartered-interiors/about-chartered.png"
+              src="/chartered-interiors/about-chartered.webp"
               alt="About Chartered"
               width={1000}
               height={1000}

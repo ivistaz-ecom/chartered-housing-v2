@@ -10,7 +10,7 @@ const sectionData = {
       mainTitle: "Our Recent Initiative",
       description:
         "In 2023 Through the Aerya Alva Foundation, we adopted Nalkemar School in Dakshin Kannada.",
-      image: "/csr/school.png",
+      image: "/csr/school.webp",
       points: [
         "Built classrooms, modern desks, and upgraded infrastructure",
         "Enhanced teacher salaries and distributed learning materials",
@@ -26,7 +26,7 @@ const sectionData = {
       title: "Environmental Stewardship",
       mainTitle: "Our Past Initiatives",
       description: "We don't just build on land - we honour it.",
-      image: "/csr/evs.png",
+      image: "/csr/evs.webp",
       points: [
         <>
           Among the first to adopt tree transplantation in Bangalore
@@ -49,7 +49,7 @@ const sectionData = {
     {
       title: "Worker Welfare",
       description: "We care deeply about the people who build our homes.",
-      image: "/csr/worker.png",
+      image: "/csr/worker.webp",
       points: [
         <>
           Regular on-site health checks
@@ -66,7 +66,7 @@ const sectionData = {
     {
       title: "Rural Outreach",
       description: "We believe development must reach the grassroots.",
-      image: "/csr/rural.png",
+      image: "/csr/rural.webp",
       points: [
         <>
           Health & accident insurance for 500+ farm workers
@@ -80,7 +80,7 @@ const sectionData = {
     {
       title: "Education & Youth Empowerment",
       description: "Creating safe, stimulating spaces for the next generation.",
-      image: "/csr/education.png",
+      image: "/csr/education.webp",
       points: [
         <>
           <b className="text-[#646464]">Creche Support:</b> On-site day care and

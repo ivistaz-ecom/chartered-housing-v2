@@ -29,11 +29,25 @@ const amenitiesData = [
 
 const Amenities = () => {
   return (
-    <section
-      className="relative bg-cover bg-center bg-no-repeat py-20"
-      style={{ backgroundImage: "url('/chartered-1956/amenities-bg.png')" }} // Replace with your background image
-    >
-      {/* Overlay */}
+    <section className="relative py-20">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/chartered-1956/amenities-bg.webp"
+          alt="Amenities Background"
+          fill
+          className="z-0 lg:block hidden object-cover"
+          priority
+        />
+        <Image
+          src="/chartered-1956/amenities-details.webp"
+          alt="Amenities Background Mobile"
+          fill
+          className="z-0 lg:hidden block object-cover"
+          priority
+        />
+        <div className="absolute inset-0 lg:hidden block bg-black/35 z-0"></div>
+      </div>
 
       <div className="relative z-10 container mx-auto text-center text-white px-5 md:px-0">
         <h2 className="lg:text-[36px] text-[24px] font-light mb-12 roboto-serif-regular">Amenities</h2>

@@ -9,7 +9,7 @@ const BusinessEthics = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/why-chartered/business-ethics.png" // replace with your bg image path
+          src="/why-chartered/business-ethics.webp" // replace with your bg image path
           alt="Business Ethics Background"
           layout="fill"
           objectFit="cover"
@@ -17,14 +17,14 @@ const BusinessEthics = () => {
           className="z-0 lg:block hidden"
         />
         <Image
-          src="/why-chartered/business-ethics-mobile.png" // replace with your bg image path
+          src="/why-chartered/business-ethics-mobile.webp" // replace with your bg image path
           alt="Business Ethics Background"
           layout="fill"
           objectFit="cover"
           priority
           className="z-0 lg:hidden block"
         />
-        <div className="absolute inset-0 bg-black/50 z-0"></div>
+        <div className="absolute inset-0 z-0"></div>
       </div>
 
       {/* Content */}

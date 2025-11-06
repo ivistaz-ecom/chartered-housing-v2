@@ -4,8 +4,8 @@ const AboutUsBanner = () => {
   return (
     <div>
       <Banner
-        backgroundImage="/about-us/banner.png"
-        mobileBackgroundImage="/about-us/mobile-banner.png"
+        backgroundImage="/about-us/banner.webp"
+        mobileBackgroundImage="/about-us/mobile-banner.webp"
         sectionTitle="ABOUT US"
         title="A Legacy of Trust"
         subtitle="A Future Built with Purpose"

@@ -14,7 +14,7 @@ const ProjectsSection = () => {
   const carouselProjects = [
     {
       id: 1,
-      image: "/home/ongoing.png",
+      image: "/home/ongoing.webp",
       alt: "Birdsong",
       // logo: "/ongoing-project/bird-song.svg",
       logoAlt: "Birdsong Logo",
@@ -31,7 +31,7 @@ const ProjectsSection = () => {
     },
     {
       id: 2,
-      image: "/home/legacy.png",
+      image: "/home/legacy.webp",
       alt: "Palace Road",
       // logo: "/ongoing-project/chartered-1956.svg",
       logoAlt: "Chartered 1956 Logo",
@@ -78,7 +78,7 @@ const ProjectsSection = () => {
 
   return (
     <section
-      className=" bg-cover bg-center bg-no-repeat overflow-hidden bg-[url(/home/ongoing-projects-bg.png)] bg-fixed"
+      className=" bg-cover bg-center bg-no-repeat overflow-hidden bg-[url(/home/ongoing-projects-bg.webp)] bg-fixed"
       style={{ transform: "translateZ(0)", backfaceVisibility: "hidden" }}
     >
       <div

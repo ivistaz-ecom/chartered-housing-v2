@@ -11,7 +11,7 @@ const slideData = [
     serviceTitle: "Residential Interiors",
     serviceDescription:
       "Tailored living spaces for apartments and homes that feel uniquely yours.",
-    image: "/chartered-interiors/residential-interiors.png",
+    image: "/chartered-interiors/residential-interiors.webp",
     alt: "Residential Interiors",
   },
   {
@@ -19,7 +19,7 @@ const slideData = [
     serviceTitle: "Retail Interiors",
     serviceDescription:
       "Smart, inviting spaces that turn footfall into loyal customers.",
-    image: "/chartered-interiors/retail.png",
+    image: "/chartered-interiors/retail.webp",
     alt: "Retail Interiors",
   },
   {
@@ -27,7 +27,7 @@ const slideData = [
     serviceTitle: "Office Interiors",
     serviceDescription:
       "Future-ready workspaces with an eye on culture, function, and flow.",
-    image: "/chartered-interiors/office.png",
+    image: "/chartered-interiors/office.webp",
     alt: "Office Interiors",
   },
 ];

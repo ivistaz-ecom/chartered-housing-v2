@@ -18,7 +18,7 @@ const StatsSection = () => {
           years of <br /> excellence
         </>
       ),
-      image: "/home/img-1.png",
+      image: "/home/img-1.webp",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ const StatsSection = () => {
           projects <br /> delivered
         </>
       ),
-      image: "/home/img-2.png",
+      image: "/home/img-2.webp",
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ const StatsSection = () => {
           of our sales come <br /> through references
         </>
       ),
-      image: "/home/img-3.png",
+      image: "/home/img-3.webp",
     },
     {
       id: 4,
@@ -51,7 +51,7 @@ const StatsSection = () => {
           on-time <br /> delivery
         </>
       ),
-      image: "/home/img-4.png",
+      image: "/home/img-4.webp",
     },
   ];
 
@@ -108,7 +108,7 @@ const StatsSection = () => {
     <section
       ref={sectionRef}
       className="relative bg-black text-white bg-cover bg-center lg:py-20 py-10"
-      style={{ backgroundImage: "url('/home/since-bg.png')" }}
+      style={{ backgroundImage: "url('/home/since-bg.webp')" }}
     >
       <div className="container mx-auto px-5 lg:py-16 py-10">
         {/* Cards Grid */}

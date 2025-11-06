@@ -12,10 +12,10 @@ import {
 } from "../Form/FormField";
 
 const images = [
-  "/chartered-birdsong/img3.png",
-  "/chartered-birdsong/img1.png",
-  "/chartered-birdsong/img2.png",
-  "/chartered-birdsong/img4.png",
+  "/chartered-birdsong/img3.webp",
+  "/chartered-birdsong/img1.webp",
+  "/chartered-birdsong/img2.webp",
+  "/chartered-birdsong/img4.webp",
 ];
 
 const Carousel = () => {
@@ -93,9 +93,9 @@ const Carousel = () => {
           {/* Desktop Left Arrow - Hidden on mobile */}
           <button
             onClick={prevSlide}
-            className="hidden md:flex bg-white/80 border border-[#D9D9D9] hover:bg-white rounded-full p-2"
+            className="hidden md:flex bg-white/80 border border-[#646464] hover:bg-white rounded-full p-2"
           >
-            <BsChevronLeft size={28} className="text-[#D9D9D9] font-bold" />
+            <BsChevronLeft size={28} className="text-[#646464] font-bold" />
           </button>
 
           {/* Main Image */}
@@ -114,29 +114,29 @@ const Carousel = () => {
           {/* Desktop Right Arrow - Hidden on mobile */}
           <button
             onClick={nextSlide}
-            className="hidden md:flex bg-white/80 border border-[#D9D9D9] hover:bg-white rounded-full p-2"
+            className="hidden md:flex bg-white/80 border border-[#646464] hover:bg-white rounded-full p-2"
           >
-            <BsChevronRight size={28} className="text-[#D9D9D9] font-bold" />
+            <BsChevronRight size={28} className="text-[#646464] font-bold" />
           </button>
 
           {/* Mobile Arrows - Below image, visible only on mobile */}
           <div className="flex md:hidden items-center justify-center gap-4 mt-4">
             <button
               onClick={prevSlide}
-              className="bg-white/80 border border-[#D9D9D9] hover:bg-white rounded-full p-2"
+              className="bg-white/80 border border-[#646464] hover:bg-white rounded-full p-2"
             >
               <BsChevronLeft
                 size={24}
-                className="pe-1 text-[#D9D9D9] font-bold"
+                className="pe-1 text-[#646464] font-bold"
               />
             </button>
             <button
               onClick={nextSlide}
-              className="bg-white/80 border border-[#D9D9D9] hover:bg-white rounded-full p-2"
+              className="bg-white/80 border border-[#646464] hover:bg-white rounded-full p-2"
             >
               <BsChevronRight
                 size={24}
-                className="pl-1 text-[#D9D9D9] font-bold"
+                className="pl-1 text-[#646464] font-bold"
               />
             </button>
           </div>

@@ -19,10 +19,24 @@ const amenitiesData = [
 
 const Amenities = () => {
   return (
-    <section
-      className="relative bg-cover bg-center bg-no-repeat lg:py-20 py-10"
-      style={{ backgroundImage: "url('/chartered-1956/amenities-bg.png')" }}
-    >
+    <section className="relative py-20">
+       <div className="absolute inset-0">
+        <Image
+          src="/chartered-1956/amenities-bg.webp"
+          alt="Amenities Background"
+          fill
+          className="z-0 lg:block hidden object-cover"
+          priority
+        />
+        <Image
+          src="/chartered-1956/amenities-details.webp"
+          alt="Amenities Background Mobile"
+          fill
+          className="z-0 lg:hidden block object-cover"
+          priority
+        />
+        <div className="absolute inset-0 lg:hidden block bg-black/35 z-0"></div>
+      </div>
       <div className="relative z-10 container mx-auto text-center text-white px-5 md:px-0">
         <h2 className="lg:text-4xl text-2xl font-light lg:mb-12 mb-5 roboto-serif-regular">
           Amenities

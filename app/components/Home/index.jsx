@@ -11,7 +11,7 @@ const index = () => {
       <div className="">
       <Banner
         backgroundImage="/banners/chartered-thumbnail-desktop.jpg"   // 👈 fallback image for desktop
-        mobileBackgroundImage="/home/phone-banner.jpg" // 👈 fallback image for mobile
+        mobileBackgroundImage="/home/phone-banner.webp" // 👈 fallback image for mobile
         title={false}
         subtitle={false}
         // textPosition="bottom-left"
@@ -19,7 +19,7 @@ const index = () => {
         showDivide={false}
         useVideo={true}
         backgroundVideo="/videos/Chattered-Banner.webm"
-        backgroundVideoSafari="/videos/demo.mp4"
+        // backgroundVideoSafari="/videos/banner-video.mp4"
         mobileBackgroundVideo="/videos/Chattered-Banner-Mobile.webm"
         mobileBackgroundVideoSafari="/videos/phone-banner.mp4"
       />

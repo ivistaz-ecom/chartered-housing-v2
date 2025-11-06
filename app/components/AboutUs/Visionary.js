@@ -32,7 +32,7 @@ export default function LeadershipSection() {
         </div>
         <section
           className="relative bg-cover bg-center bg-no-repeat text-white"
-          style={{ backgroundImage: "url('/about-us/visionary.png')" }} // replace with your bg image
+          style={{ backgroundImage: "url('/about-us/visionary.webp')" }} // replace with your bg image
         >
           {/* Overlay */}
           {/* <div className="absolute inset-0 bg-black bg-opacity-60"></div> */}
@@ -64,7 +64,7 @@ export default function LeadershipSection() {
             {/* Right Image */}
             <div className="flex justify-center lg:justify-end">
               <Image
-                src="/about-us/abh.png"
+                src="/about-us/abh01.webp"
                 alt="Mr. A. Balakrishna Hegde"
                 width={800}
                 height={600}
