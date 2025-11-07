@@ -58,7 +58,7 @@ export default function LeadershipSection() {
                 experience and a hands-on approach to creating spaces defined by
                 integrity, quality, and lasting value.
               </h6>
-              <Button href="/visionary-leadership">Meet our Leadership</Button>
+              <Button arial-label="Meet our Leadership" rel="noopener noreferrer" href="/visionary-leadership">Meet our Leadership</Button>
             </div>
 
             {/* Right Image */}

@@ -94,7 +94,7 @@ const Grid = () => {
                   {project.highlightText}
                 </h5>
                 <div className="lg:py-5 py-0 flex items-end">
-                  <Button href={project.buttonLink}>Know More</Button>
+                  <Button arial-label="Know More" rel="noopener noreferrer" href={project.buttonLink}>Know More</Button>
                 </div>
               </div>
             </div>

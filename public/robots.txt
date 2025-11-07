@@ -1,0 +1,5 @@
+User-agent: *
+Allow: 
+Disallow: /cgi-bin/
+Disallow: https://chartered-housing-v2.vercel.app/
+Sitemap: https://charteredhousing.com/sitemap.xml
