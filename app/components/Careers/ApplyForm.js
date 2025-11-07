@@ -77,7 +77,7 @@ const ApplyForm = () => {
         </div>
 
         {/* Department */}
-        <div>
+        {/* <div>
           <SelectField
             value={formData.purpose}
             // ✅ This is correct — SelectField should call `onChange(name, value)` internally
@@ -92,7 +92,7 @@ const ApplyForm = () => {
               {fieldErrors.purpose}
             </span>
           )}
-        </div>
+        </div> */}
 
         {/* Resume Upload */}
         <div>

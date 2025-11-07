@@ -153,6 +153,7 @@ export const useFormHandler = (formId) => {
           formId !== 5859 &&
           formId !== 5850 &&
           formId !== 5862 &&
+          formId !== 5856 &&
           (!value || !value.trim())
         ) {
           // Different error messages based on form type
