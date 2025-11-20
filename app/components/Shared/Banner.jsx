@@ -284,14 +284,14 @@ const Banner = ({
         <h2 className="text-xl lg:text-[24px] font-semibold mb-2">{title}</h2>
 
         <div className="flex flex-col lg:flex-row lg:items-center">
-          <h6 className="text-2xl lg:text-[36px] font-bold">
+          <h3 className="text-2xl lg:text-[36px] font-bold">
             {subtitle} <br />
             {subtitle2 && (
               <span className="text-2xl lg:text-[36px] font-bold">
                 {subtitle2}
               </span>
             )}
-          </h6>
+          </h3>
         </div>
 
         {/* {subtitle2 && <span className="text-3xl lg:text-5xl font-bold">{subtitle2}</span>} */}

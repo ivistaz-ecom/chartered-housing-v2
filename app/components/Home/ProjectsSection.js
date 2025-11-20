@@ -135,9 +135,9 @@ const ProjectsSection = () => {
                 <h2 className="roboto-serif-light lg:text-[24px] text-[20px] text-[#ED1C25]">
                   {currentProject.title}
                 </h2>
-                <h6 className="text-[#646464] mt-3 text-[18px] leading-relaxed">
+                <h3 className="text-[#646464] mt-3 text-[18px] leading-relaxed">
                   {currentProject.description}
-                </h6>
+                </h3>
                 <div className="py-5">
                   <Link href={currentProject.buttonLink}>
                     <Button>Know More</Button>

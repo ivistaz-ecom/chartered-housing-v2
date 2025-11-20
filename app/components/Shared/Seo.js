@@ -131,10 +131,10 @@ function NextSeo({ title, description, path, metaImage }) {
       "@context": "https://schema.org/",
       "@type": "WebSite",
       name: "Chartered Housing",
-      url: "https://chartered-housing-v2.vercel.app",
+      url: "https://charteredhousing.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: `https://chartered-housing-v2.vercel.app${path}`,
+        target: `https://charteredhousing.com${path}`,
         "query-input": "required name=search_term_string",
       },
       "sameAs": [

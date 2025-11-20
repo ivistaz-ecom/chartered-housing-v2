@@ -141,7 +141,7 @@ const StatsSection = () => {
                     "0"
                   )}
                 </h3>
-                <h5 className="mt-0 text-[#646464] text-2xl">{item.text}</h5>
+                <h4 className="mt-0 text-[#646464] text-2xl">{item.text}</h4>
               </div>
               <Image
                 src={item.image}
@@ -159,11 +159,11 @@ const StatsSection = () => {
           <h2 className="text-[36px] roboto-serif-regular text-[#ED1C24]">
             Since 1989
           </h2>
-          <h6 className="mt-0 max-w-3xl mx-auto lg:text-2xl text-[18px]">
+          <h3 className="mt-0 max-w-3xl mx-auto lg:text-2xl text-[18px]">
             Chartered Housing has operated on the principle of uncompromising
             quality through transparency. This core value remains the
             cornerstone of our success and your peace of mind.
-          </h6>
+          </h3>
           <div className="py-5 flex justify-center">
             <Button href="/about-us">Learn More</Button>
           </div>

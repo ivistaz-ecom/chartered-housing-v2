@@ -123,17 +123,17 @@ export default function TestimonialsCarousel() {
                 className="rounded-full object-cover flex-shrink-0"
               />
               <div className="flex flex-col justify-between flex-1 h-full">
-                <h4 className="text-[#646464] mb-4 text-lg leading-relaxed overflow-hidden">
+                <h3 className="text-[#646464] mb-4 text-lg leading-relaxed overflow-hidden">
                   {testimonials[current].text}
-                </h4>
+                </h3>
 
                 <div className="mt-auto">
                   <h4 className="text-[#ED1C24] py-3 font-semibold text-2xl nunito-regular">
                     {testimonials[current].name}
                   </h4>
-                  <h6 className="text-[#646464] text-lg nunito-regular">
+                  <h5 className="text-[#646464] text-lg nunito-regular">
                     {testimonials[current].role}
-                  </h6>
+                  </h5>
                 </div>
               </div>
             </motion.div>
@@ -167,17 +167,17 @@ export default function TestimonialsCarousel() {
                     className="rounded-full object-cover flex-shrink-0"
                   />
                   <div className="flex flex-col lg:justify-between lg:flex-1">
-                    <h4 className="text-[#646464] mb-4 text-lg leading-relaxed overflow-hidden">
+                    <h3 className="text-[#646464] mb-4 text-lg leading-relaxed overflow-hidden">
                       {testimonials[idx].text}
-                    </h4>
+                    </h3>
 
                     <div className="mt-auto">
                       <h4 className="text-[#ED1C24] py-3 font-semibold text-2xl nunito-regular">
                         {testimonials[idx].name}
                       </h4>
-                      <h6 className="text-[#646464] text-lg nunito-regular">
+                      <h5 className="text-[#646464] text-lg nunito-regular">
                         {testimonials[idx].role}
-                      </h6>
+                      </h5>
                     </div>
                   </div>
                 </motion.div>
