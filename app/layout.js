@@ -1,18 +1,47 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Shared/Header";
 import Footer from "./components/Shared/Footer";
 import ScrollToTop from "./utils/ScrollToTop";
-import Script from "next/script";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+// Optimize Nunito font with Next.js font optimization
+const nunito = localFont({
+  src: [
+    {
+      path: "./font/Nunito/Nunito-VariableFont_wght.ttf",
+      weight: "200 1000",
+      style: "normal",
+    },
+    {
+      path: "./font/Nunito/Nunito-Italic-VariableFont_wght.ttf",
+      weight: "200 1000",
+      style: "italic",
+    },
+  ],
+  variable: "--font-nunito",
+  display: "swap",
+  preload: true,
+  fallback: ["sans-serif"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+// Optimize Roboto Serif font with Next.js font optimization
+const robotoSerif = localFont({
+  src: [
+    {
+      path: "./font/Roboto_Serif/RobotoSerif-VariableFont_GRAD,opsz,wdth,wght.ttf",
+      weight: "100 900",
+      style: "normal",
+    },
+    {
+      path: "./font/Roboto_Serif/RobotoSerif-Italic-VariableFont_GRAD,opsz,wdth,wght.ttf",
+      weight: "100 900",
+      style: "italic",
+    },
+  ],
+  variable: "--font-roboto-serif",
+  display: "swap",
+  preload: true,
+  fallback: ["serif"],
 });
 
 export default function RootLayout({ children }) {
@@ -34,7 +63,7 @@ export default function RootLayout({ children }) {
       </head>
 
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${nunito.variable} ${robotoSerif.variable} antialiased`}
       >
         {/* Google Tag Manager (noscript) */}
         <noscript>
