@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import OngoingProjects from '@/app/components/OngoingProjects'
-import NextSeo from '@/app/components/Shared/Seo'
+import SeoClient from '@/app/components/Shared/SeoClient'
 const page = () => {
   const seoField = {
     title: "Chartered Ongoing Projects | Plots & Apartments Bengaluru",
@@ -10,7 +10,7 @@ const page = () => {
   }
     return (
     <div>
-      <NextSeo {...seoField} />
+      <SeoClient {...seoField} />
       <OngoingProjects/>
     </div>
   )

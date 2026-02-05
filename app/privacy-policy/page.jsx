@@ -1,5 +1,5 @@
 import React from 'react'
-import NextSeo from '../components/Shared/Seo'
+import SeoClient from '../components/Shared/SeoClient'
 import PrivacyPolicy from '../components/PrivacyPolicy/index'
 const page = () => {
   const seoField = {
@@ -9,7 +9,7 @@ const page = () => {
   }
   return (
     <div>
-      <NextSeo {...seoField} />
+      <SeoClient {...seoField} />
       <PrivacyPolicy /> 
     </div>
   )

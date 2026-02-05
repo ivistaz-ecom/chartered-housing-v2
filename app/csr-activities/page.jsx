@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import CsrActivities from '../components/CsrActivities'
-import NextSeo from '../components/Shared/Seo'
+import SeoClient from '../components/Shared/SeoClient'
 const page = () => {
   const seoField = {
     title: "CSR by Chartered | Trusted Builders in Bangalore",
@@ -10,7 +10,7 @@ const page = () => {
   }
   return (
     <div>
-      <NextSeo {...seoField} />
+      <SeoClient {...seoField} />
      <CsrActivities /> 
     </div>
   )

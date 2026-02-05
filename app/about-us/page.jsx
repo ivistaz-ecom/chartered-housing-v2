@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import AboutUs from "../components/AboutUs";
-import NextSeo from "../components/Shared/Seo";
+import SeoClient from "../components/Shared/SeoClient";
 const page = () => {
   const seoField = {
     title: "Trusted Real Estate Developers in Bangalore | Chartered",
@@ -10,7 +10,7 @@ const page = () => {
   }
   return (
     <div>
-      <NextSeo {...seoField} />
+      <SeoClient {...seoField} />
       <AboutUs />
     </div>
   );

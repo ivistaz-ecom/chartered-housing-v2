@@ -1,6 +1,6 @@
 import React from 'react'
 import Disclaimer from '../components/Disclaimer'
-import NextSeo from '../components/Shared/Seo'
+import SeoClient from '../components/Shared/SeoClient'
 const page = () => {
   const seoField = {
     title: "Disclaimer | Chartered Housing",
@@ -9,7 +9,7 @@ const page = () => {
   }
   return (
     <div>   
-      <NextSeo {...seoField} />
+      <SeoClient {...seoField} />
       <Disclaimer />
     </div>
   )

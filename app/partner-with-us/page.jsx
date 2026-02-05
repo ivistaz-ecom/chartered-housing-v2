@@ -1,6 +1,6 @@
 'use client'
 import PartnerWithUs from "@/app/components/PartnerWithUs"
-import NextSeo from '@/app/components/Shared/Seo'
+import SeoClient from '@/app/components/Shared/SeoClient'
 const page = () => {
   const seoField = {
     title: "Partner with Chartered | Trusted Builders in Bangalore",
@@ -9,7 +9,7 @@ const page = () => {
   }
   return (
     <div>
-      <NextSeo {...seoField} />
+      <SeoClient {...seoField} />
       <PartnerWithUs />
     </div>
   )

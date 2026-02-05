@@ -1,22 +1,20 @@
-'use client'
-import React from "react";
+import SeoClient from "./components/Shared/SeoClient";
 import Home from "./components/Home";
-import NextSeo from "./components/Shared/Seo";
 
-const page = () => {
+export default function page() {
   const seoField = {
     title: "Leading Builders & Developers in Bangalore | Chartered",
     description:
-      "Chartered Housing, one of Bangalore’s most trusted real estate developers, offers luxury apartments, boutique residences, villas, and premium plotted projects.",
+      "Chartered Housing, one of Bangalore’s most trusted real estate developers.",
     path: "",
-  }
+  };
 
   return (
-    <>    
-    <NextSeo {...seoField} />
+    <>
+      <SeoClient {...seoField} />
       <Home />
     </>
   );
-};
+}
 
-export default page;
+
